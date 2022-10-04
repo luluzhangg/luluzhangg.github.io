@@ -1,0 +1,63 @@
+h1.title{
+  font-size: 120px;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+}
+
+body{
+  background-image:url(https://freepngimg.com/save/22643-ocean-fish-transparent-image/640x507);
+background-repeat: space;
+background-position: left bottom;
+background-size: 400px 350px;
+}
+
+html{
+  background-color: background-color: #0093E9;
+background-image: linear-gradient(135deg, #0093E9 0%, #80D0C7 100%);
+}
+
+h1.project{
+  font-size: 80px;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+}
+
+h2{
+  font-size: 80px;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+}
+
+h3 {
+  text-align: center;
+  font-family:'Courier New', monospace;
+  font-size: 24px
+  color: white;
+}
+
+details{
+  text-align: center;
+}
+
+pre{
+  text-align: center;
+}
+
+summary{
+  font-family: 'Courier New', monospace;
+}
+
+summary.BW{
+  color:PowderBlue;
+  font-size:26px;
+  text-align: center
+}
+
+p{
+  font-family:'Courier New', monospace;
+  font-size: 18px
+  color: white;
+}

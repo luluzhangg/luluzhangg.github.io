@@ -1,0 +1,65 @@
+h1{
+  font-family:'Bebas Neue', cursive;
+  font-size: 150px;
+  padding-bottom: 10px;
+  text-shadow: 10px 10px PowderBlue;
+}
+
+div{
+  padding-bottom: 50px;
+  font-family:'Courier New', monospace;
+  text-align: right;
+  font-size: 18px;
+}
+
+.longway{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  transition: all 2s ease-in-out;
+  color:blue;
+  background: -webkit-radial-gradient(#354af2, #94e6e9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.longway:hover {
+  cursor: pointer;
+  font-size: 3em;
+}
+
+.rise{
+  font-weight: bold;
+  animation-name: rise;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rise{
+  0%  {background-color:#3100ff;}
+ 15%  {background-color:#94ace9;}
+ 25%  {background-color:#94e9dd;}
+ 50%  {background-color:#c6fe66;}
+ 75%  {background-color:#ffb818;}
+ 100% {background-color:#ff0000;}
+}
+
+.coral{
+  font-weight: bold;
+  font-stretch: extra-expanded;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+  background-image: url('sea.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: none;
+  background-attachment: fixed;
+}
+
+img:hover{
+ cursor:pointer;
+ filter:invert(100%);
+ transition: 2s;
+}
