@@ -63,3 +63,9 @@ img:hover{
  filter:invert(100%);
  transition: 2s;
 }
+
+a{
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  font-size: 22px;
+}
