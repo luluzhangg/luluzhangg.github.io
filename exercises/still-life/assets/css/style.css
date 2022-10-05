@@ -1,0 +1,17 @@
+html{
+  background-color: #7683b6;
+}
+
+footer{
+  width: 100%;
+  height: 200px;
+  background: #3f230a;
+  border: 10px;
+  padding: 10px;
+  position: absolute, bottom;
+  align-items: baseline;
+}
+
+.bowl{
+  background: #f3fafe
+}
