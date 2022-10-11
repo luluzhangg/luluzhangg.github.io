@@ -1,0 +1,369 @@
+/* Desktop - 1 */
+html{
+position: relative;
+width: 1440px;
+height: 1024px;
+
+background: #87C8CC;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Star 1 */
+#granulated{
+position: absolute;
+width: 399px;
+height: 396px;
+left: 125px;
+top: 545px;
+
+background: #DACAC0;
+border-radius: 13px;
+}
+
+/* Star 2 */
+#pink{
+position: absolute;
+width: 532px;
+height: 527px;
+left: 454px;
+top: 90px;
+
+background: #E19EB6;
+border-radius: 9px;
+}
+
+/* Star 8 */
+#blue{
+position: absolute;
+width: 363px;
+height: 360px;
+left: 677px;
+top: -28px;
+
+background: #50AEE2;
+border-radius: 6px;
+}
+
+/* Star 3 */
+#bat{
+position: absolute;
+width: 388px;
+height: 369px;
+left: 1040px;
+top: 0px;
+
+background: #8C4E70;
+border-radius: 16px;
+}
+
+/* Star 4 */
+#bat2{
+position: absolute;
+width: 270px;
+height: 295px;
+left: 1099px;
+top: 37px;
+
+background: #632E51;
+}
+
+/* Star 5 */
+#sun{
+position: absolute;
+width: 500px;
+height: 501px;
+left: 627px;
+top: 560px;
+
+background: #D15241;
+border-radius: 7px;
+}
+
+/* Star 6 */
+#royal{
+position: absolute;
+width: 391px;
+height: 395px;
+left: 1020px;
+top: 448px;
+
+background: #DD933D;
+border-radius: 7px;
+}
+
+/* Star 7 */
+#royal2{
+position: absolute;
+width: 273px;
+height: 276px;
+left: 1079px;
+top: 508px;
+
+background: #5851A6;
+border-radius: 7px;
+}
+
+/* Types of Starfish */
+h1{
+position: absolute;
+width: 414px;
+height: 296px;
+left: 29px;
+top: 30px;
+
+font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 128px;
+line-height: 154px;
+
+color: #000000;
+}
+
+
+/* Ellipse 50 */
+#bubble1{
+position: absolute;
+width: 214px;
+height: 201px;
+left: 324px;
+top: 307px;
+border-radius:50%;
+
+background: #D9D9D9;
+mix-blend-mode: hard-light;
+opacity: 0.4;
+animation-name: bubble;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+}
+
+/* Ellipse 51 */
+#bubble2{
+position: absolute;
+width: 267px;
+height: 263px;
+left: 1099px;
+top: 869px;
+border-radius:50%;
+
+background: #D9D9D9;
+mix-blend-mode: hard-light;
+opacity: 0.4;
+animation-name: bubble;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+/* Ellipse 52 */
+#bubble3{
+position: absolute;
+width: 157px;
+height: 146px;
+left: 69px;
+top: 652px;
+border-radius:50%;
+
+background: #D9D9D9;
+mix-blend-mode: hard-light;
+opacity: 0.4;
+animation-name: bubble;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+}
+
+/* Ellipse 56 */
+#bubble4{
+position: absolute;
+width: 93px;
+height: 91px;
+left: 456px;
+top: 439px;
+border-radius:50%;
+
+background: #D9D9D9;
+mix-blend-mode: hard-light;
+opacity: 0.4;
+animation-name: bubble;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+
+/* Ellipse 57 */
+#bubble5{
+position: absolute;
+width: 117px;
+height: 103px;
+left: 385px;
+top: 930px;
+border-radius:50%;
+
+background: #D9D9D9;
+mix-blend-mode: hard-light;
+opacity: 0.4;
+animation-name: bubble;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+}
+
+/* Ellipse 58 */
+#bubble6{
+position: absolute;
+width: 108px;
+height: 108px;
+left: 1374px;
+top: 238px;
+border-radius:50%;
+
+background: #D9D9D9;
+mix-blend-mode: hard-light;
+opacity: 0.4;
+animation-name: bubble;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+/* Ellipse 59 */
+#bubble7{
+position: absolute;
+width: 157px;
+height: 146px;
+left: 96px;
+top: -46px;
+border-radius:50%;
+
+background: #D9D9D9;
+mix-blend-mode: hard-light;
+opacity: 0.4;
+animation-name: bubble;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+
+/* Ellipse 55 */
+#bubble8{
+position: absolute;
+width: 181px;
+height: 179px;
+left: 949px;
+top: 391px;
+border-radius:50%;
+
+background: #D9D9D9;
+mix-blend-mode: hard-light;
+opacity: 0.4;
+animation-name: bubble;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+
+@keyframes bubble {
+  100% { transform: translateY(-800px);}
+}
+
+/* Pink Sea star */
+.pink{
+position: absolute;
+width: 249px;
+height: 69px;
+left: 452px;
+top: 407px;
+
+font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+
+color: #000000;
+}
+
+
+/* Blue sea star */
+.blue{
+position: absolute;
+width: 220px;
+height: 69px;
+left: 892px;
+top: 56px;
+
+font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+
+color: #000000;
+}
+
+
+/* Bat starfish */
+.bat{
+position: absolute;
+width: 225px;
+height: 52px;
+left: 1186px;
+top: 355px;
+
+font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+
+color: #000000;
+}
+
+
+/* royal starfish */
+.royal{
+position: absolute;
+width: 228px;
+height: 72px;
+left: 1119px;
+top: 804px;
+
+font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+
+color: #000000;
+}
+
+
+/* morning sun sea star */
+.sun{
+position: absolute;
+width: 198px;
+height: 114px;
+left: 555px;
+top: 676px;
+
+font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+
+color: #000000;
+}
+
+
+/* granulated sea star */
+.gran{
+position: absolute;
+width: 288px;
+height: 85px;
+left: 116px;
+top: 894px;
+
+font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+
+color: #000000;
+}
