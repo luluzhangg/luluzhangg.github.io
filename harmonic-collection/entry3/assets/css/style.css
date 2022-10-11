@@ -367,3 +367,11 @@ line-height: 48px;
 
 color: #000000;
 }
+
+.link{
+  font-family: 'Bebas Neue';
+  font-size: 35px;
+  line-height: 900px;
+  top: 30px;
+  margin-left: 30px;
+}
