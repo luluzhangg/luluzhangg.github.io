@@ -1,8 +1,8 @@
 /* MacBook Air - 1 */
 html{
-position: relative;
+position: absolute;
 width: 1107px;
-height: 716px;
+height: 796px;
 
 background: #112138;
 }
@@ -10,8 +10,8 @@ background: #112138;
 /* water3 1 */
 img{
 position: absolute;
-width: 464px;
-height: 720px;
+width: 664px;
+height: auto;
 left: -1px;
 top: 0px;
 
@@ -20,17 +20,17 @@ background: url(water3.jpg);
 
 /* The Blue World */
 h1{
-position: absolute;
-width: 537px;
-height: 157px;
+position: fixed;
+width: 700px;
+height: 457px;
 left: 169px;
-top: 5px;
+top: 0px;
 
 font-family: 'Imbue';
 font-style: normal;
 font-weight: 400;
-font-size: 120px;
-line-height: 80px;
+font-size: 160px;
+line-height: 20px;
 
 color: #FFFFFF;
 }
@@ -42,7 +42,7 @@ position: absolute;
 width: 576px;
 height: 121px;
 left: 340px;
-top: 100px;
+top: 90px;
 
 font-family: 'EB Garamond';
 font-style: normal;
@@ -59,8 +59,8 @@ color: #FFFFFF;
 position: absolute;
 width: 186px;
 height: 61px;
-left: 340px;
-top: 277px;
+left: 540px;
+top: 227px;
 
 font-family: 'Montserrat Alternates';
 font-style: normal;
@@ -77,8 +77,8 @@ color: #FFFFFF;
 position: absolute;
 width: 186px;
 height: 61px;
-left: 340px;
-top: 437px;
+left: 540px;
+top: 387px;
 
 font-family: 'Montserrat Alternates';
 font-style: normal;
@@ -95,8 +95,8 @@ color: #FFFFFF;
 position: absolute;
 width: 186px;
 height: 61px;
-left: 340px;
-top: 517px;
+left: 540px;
+top: 467px;
 
 font-family: 'Montserrat Alternates';
 font-style: normal;
@@ -113,8 +113,8 @@ color: #FFFFFF;
 position: absolute;
 width: 186px;
 height: 61px;
-left: 340px;
-top: 597px;
+left: 540px;
+top: 547px;
 
 font-family: 'Montserrat Alternates';
 font-style: normal;
@@ -131,8 +131,8 @@ color: #FFFFFF;
 position: absolute;
 width: 186px;
 height: 61px;
-left: 340px;
-top: 357px;
+left: 540px;
+top: 307px;
 
 font-family: 'Montserrat Alternates';
 font-style: normal;
@@ -147,8 +147,8 @@ color: #FFFFFF;
   width:643px;
   height:auto;
   position: relative;
-  left:750px;
-  top:400px;
+  left:800px;
+  top:450px;
 }
 
 

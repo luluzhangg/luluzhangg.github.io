@@ -9,7 +9,7 @@ background: radial-gradient(88.52% 73.54% at 50% 50%, #ED9570 0%, rgba(207, 98, 
 
 /* Real-Shark-PNG-Image 1 */
 img{
-position: absolute;
+position: relative;
 width: 1280px;
 height: 713px;
 left: 61px;
@@ -326,7 +326,7 @@ color: #FFFFFF;
 
 @media only screen and (max-width: 768px) {
   /* For tablets: */
-h1{position: absolute;
+h1{position: relative;
 width: 829.94px;
 height: 90.15px;
 left: -31px;
