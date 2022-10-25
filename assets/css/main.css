@@ -1,63 +1,115 @@
-h1.title{
-  font-size: 120px;
-  text-align: center;
-  font-family: 'Bebas Neue', cursive;
-  color: white;
-}
-
-body{
-  background-image:url(https://freepngimg.com/save/22643-ocean-fish-transparent-image/640x507);
-background-repeat: space;
-background-position: left bottom;
-background-size: 400px 350px;
-}
-
+/* MacBook Pro 14" - 1 */
 html{
-  background-color: background-color: #0093E9;
-background-image: linear-gradient(135deg, #0093E9 0%, #80D0C7 100%);
+position: relative;
+width: 1107px;
+height: 716px;
+background: #E5F3F8;
 }
 
-h1.project{
-  font-size: 80px;
-  text-align: center;
-  font-family: 'Bebas Neue', cursive;
-  color: white;
+/* Rectangle 1 */
+.rectangle{
+  position:absolute;
+  width: 452px;
+  height: 982px;
+  left: 838px;
+  top: 0px;
+  padding-top: -10px;
+
+  background: #8FBAC3;
+  transform: rotate(90.26deg);
 }
 
-h2{
-  font-size: 80px;
-  text-align: center;
-  font-family: 'Bebas Neue', cursive;
-  color: white;
+/* cOre One */
+.title{
+position: absolute;
+width: 787px;
+height: 198px;
+left: 107px;
+top: 0px;
+
+font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 400;
+font-size: 140px;
+line-height: 95px;
+
+color: #000000;
 }
 
-h3 {
-  text-align: center;
-  font-family:'Courier New', monospace;
-  font-size: 24px
-  color: white;
+
+/* Interation */
+.name{
+position: absolute;
+width: 973px;
+height: 256px;
+left: 440px;
+top: 110px;
+
+font-family: 'EB Garamond';
+font-style: normal;
+font-weight: 600;
+font-size: 135px;
+line-height: 86px;
+letter-spacing: 0.125em;
+text-transform: lowercase;
+
+color: #000000;
 }
 
-details{
-  text-align: center;
+
+/* 909225ebfc91d1791872c7eb0b916265 1 */
+img{
+position: absolute;
+width: 940px;
+height: 665px;
+left: 0px;
+top: 452px;
+
+background: url(909225ebfc91d1791872c7eb0b916265.jpg);
 }
 
-pre{
-  text-align: center;
+/* ExercisEs */
+.exer{
+position: absolute;
+width: 519px;
+height: 135px;
+left: 1186px;
+top: 690px;
+
+font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 275;
+font-size: 82px;
+line-height: 100px;
+filter:none;
+color: #000000;
 }
 
-summary{
-  font-family: 'Courier New', monospace;
+
+/* Harmonic CollEction */
+.harm{
+position: absolute;
+width: 492px;
+height: 253px;
+left: 970px;
+top: 850px;
+
+font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 275;
+font-size: 76px;
+line-height: 93px;
+filter:none;
+
+color: #000000;
 }
 
-summary.BW{
-  color:PowderBlue;
-  font-size:26px;
-  text-align: center
+.exer:hover{
+  transition: 2s;
+  filter: blur(5px);
 }
 
-p{
-  font-family:'Courier New', monospace;
-  font-size: 18px
-  color: white;
+.harm:hover{
+  transition: 2s;
+  filter: blur(5px);
 }

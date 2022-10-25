@@ -1,0 +1,235 @@
+/* MacBook Air - 1 */
+html{
+position: relative;
+width: 1107px;
+height: 716px;
+
+background: #112138;
+}
+
+/* water3 1 */
+img{
+position: absolute;
+width: 464px;
+height: 720px;
+left: -1px;
+top: 0px;
+
+background: url(water3.jpg);
+}
+
+/* The Blue World */
+h1{
+position: absolute;
+width: 537px;
+height: 157px;
+left: 169px;
+top: 5px;
+
+font-family: 'Imbue';
+font-style: normal;
+font-weight: 400;
+font-size: 120px;
+line-height: 80px;
+
+color: #FFFFFF;
+}
+
+
+/* For this collection I would like to explore the ocean and marine life. From the visual aspects to the audible sounds we hear, I want to look at marine ecosystems, relationships between sea animals, and how humans interact with the sea. */
+p{
+position: absolute;
+width: 576px;
+height: 121px;
+left: 340px;
+top: 100px;
+
+font-family: 'EB Garamond';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+
+color: #FFFFFF;
+}
+
+
+/* Entry 1 */
+.one{
+position: absolute;
+width: 186px;
+height: 61px;
+left: 340px;
+top: 277px;
+
+font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #FFFFFF;
+}
+
+
+/* Entry 3 */
+.three{
+position: absolute;
+width: 186px;
+height: 61px;
+left: 340px;
+top: 437px;
+
+font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #FFFFFF;
+}
+
+
+/* Entry 4 */
+.four{
+position: absolute;
+width: 186px;
+height: 61px;
+left: 340px;
+top: 517px;
+
+font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #FFFFFF;
+}
+
+
+/* Entry 5 */
+.five{
+position: absolute;
+width: 186px;
+height: 61px;
+left: 340px;
+top: 597px;
+
+font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #FFFFFF;
+}
+
+
+/* Entry 2 */
+.two{
+position: absolute;
+width: 186px;
+height: 61px;
+left: 340px;
+top: 357px;
+
+font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #FFFFFF;
+}
+
+.container{
+  width:643px;
+  height:auto;
+  position: relative;
+  left:750px;
+  top:400px;
+}
+
+
+.wave {
+  position: relative;
+  opacity: 0;
+  top: 0;
+	width: 2px;
+	height: 1px;
+  border: #FFF 7px solid;
+	-moz-border-radius: 300px / 150px;
+	-webkit-border-radius: 300px / 150px;
+	border-radius: 300px / 150px;
+  -moz-animation-name: ripple;
+  -webkit-animation-name: ripple;
+  animation-name: ripple;
+  -moz-animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -moz-animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.wave:after {
+  content: "";
+  position: absolute;
+  opacity: 0;
+  top: -5px;
+  left: -5px;
+	width: 2px;
+	height: 1px;
+  border: #FFF 5px solid;
+	-moz-border-radius: 300px / 150px;
+	-webkit-border-radius: 300px / 150px;
+	border-radius: 300px / 150px;
+  -moz-animation-name: ripple-2;
+  -webkit-animation-name: ripple-2;
+  animation-name: ripple-2;
+  -moz-animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ripple {
+    from {
+      opacity: 1;
+    }
+    to {
+      width: 600px;
+      height: 300px;
+      border-width: 1px;
+      top: -100px;
+      opacity: 0;
+    }
+}
+
+@keyframes ripple-2 {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  100% {
+    width: 200px;
+    height: 100px;
+    border-width: 1px;
+    top: 100px;
+    left: 200px;
+  }
+}
+
+@keyframes drip {
+    to {
+      top: 190px;
+    }
+}

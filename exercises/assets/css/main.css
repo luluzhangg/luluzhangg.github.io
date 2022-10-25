@@ -1,0 +1,141 @@
+/* MacBook Pro 14" - 1 */
+body{
+position: relative;
+width: 1445px;
+height: 907px;
+
+background: #47B3AE;
+}
+
+h3{
+  font-size: 14px;
+  letter-spacing: normal;
+  font-family: sans-serif;
+text-align: center;
+color: white;
+}
+
+
+/* 86c76303e6d8a3bb9640d8eefc5b60cf 1 */
+img{
+position: absolute;
+width: 930px;
+height: 658px;
+left: 515px;
+top: 249px;
+
+background: url(86c76303e6d8a3bb9640d8eefc5b60cf.jpg);
+}
+
+/* EXERCISES */
+.title{
+  position: absolute;
+  width: 1272px;
+  height: 223px;
+  left: 140px;
+  top: 115px;
+
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 30px;
+  letter-spacing: 0.445em;
+
+  color: #FFFFFF;
+}
+
+/* Ellipse 1 */
+.one{
+position: absolute;
+width: 91px;
+height: 91px;
+left: 265px;
+top: 215px;
+
+background: #468BC6;
+opacity: 0.88;
+border-radius: 50%;
+}
+
+/* Ellipse 5 */
+.five{
+position: absolute;
+width: 91px;
+height: 91px;
+left: 265px;
+top: 696px;
+
+background: #0B915C;
+opacity: 0.88;
+border-radius: 50%;
+}
+
+/* Ellipse 2 */
+.two{
+position: absolute;
+width: 91px;
+height: 91px;
+left: 265px;
+top: 572px;
+
+background: #78245B;
+opacity: 0.88;
+border-radius: 50%;
+}
+
+/* Ellipse 3 */
+.three{
+position: absolute;
+width: 91px;
+height: 91px;
+left: 265px;
+top: 453px;
+
+background: #CAC8F6;
+opacity: 0.88;
+border-radius: 50%;
+}
+
+/* Ellipse 4 */
+.four{
+position: absolute;
+width: 91px;
+height: 91px;
+left: 265px;
+top: 334px;
+
+background: #0E5E67;
+opacity: 0.88;
+border-radius: 50%;
+}
+
+.one:hover{
+  transition: 2s ease;
+  width:2em;
+  height:2em;
+}
+
+.two:hover{
+  transition: 2s ease;
+  width:2em;
+  height:2em;
+}
+
+.three:hover{
+  transition: 2s ease;
+  width:2em;
+  height:2em;
+}
+
+.four:hover{
+  transition: 2s ease;
+  width:2em;
+  height:2em;
+}
+
+.five:hover{
+  transition: all 2s ease;
+  width:2em;
+  height:2em;
+}

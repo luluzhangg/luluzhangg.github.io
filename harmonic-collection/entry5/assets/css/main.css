@@ -1,0 +1,88 @@
+img{
+  margin-right: 800px;
+  width:auto;
+  height: 850px;
+  margin-top: 0px;
+  padding-top: 20px;
+  position: fixed;
+}
+
+
+h1{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 180px;
+  position: absolute;
+  margin-left: 815px;
+  padding-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 30px;
+  margin-top: auto;
+  color: #404f6c;
+}
+
+h3{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 90px;
+  position: absolute;
+  margin-left: 1115px;
+  padding-top: 25px;
+  opacity: 70%;
+  color: #DC7E75;
+  padding-bottom: 50px;
+}
+
+.four{
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  writing-mode:vertical-rl;
+  text-orientation:upright;
+  position: fixed;
+  font-size: 180px;
+  color: #FFFFFF;
+  margin-left: 535px;
+  margin-top: 290px;
+}
+
+.days{
+  display: flex;
+  flex-direction: row;
+  margin-left: 700px;
+  margin-right: 10px;
+  justify-content: space-around;
+  max-width: 720px;
+  height: auto;
+  padding-right: 6px;
+  padding-top: 250px;
+  flex-shrink: 1;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 38px;
+  color: #404f6c;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height:700px;
+  background-color: transparent;
+  margin-left: 700px;
+  padding-right: 10px;
+  padding-left: -10px;
+  padding-top: 90px;
+  max-width: 740px;
+  font-family: 'Bebas Neue', cursive;
+  color: #404f6c;
+  font-size:  40px;
+  text-align:  center;
+}
+
+.sep{
+  opacity: 30%;
+}
+
+
+.sat,.sun,.s1,.s2{
+  color: #DC7E75;
+}
