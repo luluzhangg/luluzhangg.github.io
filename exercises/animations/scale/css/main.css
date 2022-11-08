@@ -1,0 +1,16 @@
+
+body {
+	background: #7DCFEC;
+}
+
+.canvas {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+}
+
+.bubble{
+	width:400px;
+	height:400px;
+	color: #B3F0FC;
+}

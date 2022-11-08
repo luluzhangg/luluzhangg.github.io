@@ -143,6 +143,23 @@ line-height: 29px;
 color: #FFFFFF;
 }
 
+/* Entry 6 */
+.six{
+position: absolute;
+width: 186px;
+height: 61px;
+left: 740px;
+top: 222px;
+
+font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #FFFFFF;
+}
+
 .container{
   width:643px;
   height:auto;

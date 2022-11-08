@@ -1,6 +1,6 @@
 /* MacBook Pro 14" - 1 */
 html{
-position: relative;
+position: fixed;
 width: 965px;
 height: 920px;
 background: #E5F3F8;
@@ -8,8 +8,8 @@ background: #E5F3F8;
 
 /* Rectangle 1 */
 .rectangle{
-  position:fixed;
-  width: 402px;
+  position:relative;
+  width: 352px;
   height: 962px;
   left: 838px;
   top: 0px;
@@ -25,7 +25,7 @@ background: #E5F3F8;
 position: absolute;
 width: 787px;
 height: 198px;
-left: 107px;
+left: 67px;
 top: 0px;
 
 font-family: 'Montserrat Alternates';
@@ -44,7 +44,7 @@ position: absolute;
 width: 973px;
 height: 256px;
 left: 440px;
-top: 110px;
+top: 120px;
 
 font-family: 'EB Garamond';
 font-style: normal;
@@ -61,10 +61,10 @@ color: #000000;
 /* 909225ebfc91d1791872c7eb0b916265 1 */
 img{
 position: fixed;
-width: 900px;
-height: 625px;
+width: 750px;
+height:auto;
 left: 0px;
-top: 400px;
+top: 200px;
 
 background: url(909225ebfc91d1791872c7eb0b916265.jpg);
 }
@@ -74,8 +74,8 @@ background: url(909225ebfc91d1791872c7eb0b916265.jpg);
 position: absolute;
 width: 519px;
 height: 135px;
-left: 980px;
-top: 500px;
+left: 900px;
+top: 380px;
 
 font-family: 'Montserrat Alternates';
 font-style: normal;
@@ -92,8 +92,8 @@ color: #000000;
 position: absolute;
 width: 492px;
 height: 253px;
-left: 980px;
-top: 630px;
+left: 900px;
+top: 470px;
 
 font-family: 'Montserrat Alternates';
 font-style: normal;

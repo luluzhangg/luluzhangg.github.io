@@ -1,0 +1,56 @@
+
+html, body, * {
+    margin: 0;
+    padding: 0;
+    background-color: #E2FF99;
+    cursor: default;
+        }
+
+.canvas {
+    width: 100%;
+    height: 100%;
+        }
+
+
+/*constant animation*/
+
+.animate_constant {
+    background-color: #28FF2E;
+    border-radius: 50%;
+    border-width: 5px;
+    height: 150px;
+    width: 15%;
+    float: left;
+    top: 10px;
+    position: relative;
+    animation: constant 4s linear infinite alternate;
+        }
+
+
+@keyframes constant {
+    0%   {top:0px;}
+    100% {top:800px;}
+}
+
+
+
+/*animation with steps*/
+
+.animate_steps {
+    background-color: #28FF2E;
+    border-radius: 50%;
+    border-width: 5px;
+    height: 150px;
+    width: 15%;
+    float: left;
+    top: 10px;
+    position: relative;
+    animation: linear-move 5s infinite;
+    animation-direction: alternate;
+        }
+
+
+@keyframes linear-move {
+    0%   {left:0px;}
+    100% {left:1100px;}
+}

@@ -1,0 +1,83 @@
+body{
+  background: black;
+}
+
+h1{
+  font-size: 70px;
+  color: white;
+  text-align: center;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 300;
+  width: 1100px;
+  padding-left: 150px;
+  padding-bottom: 10px;
+  padding-top: 10px
+  top: 40px;
+  position:relative;
+}
+
+.container1{
+  height: 400px;
+  width: 300px;
+  left:60px;
+  top:300px;
+  position: absolute;
+  animation: heartblue 5s infinite alternate;
+  animation-delay: 2s;
+}
+
+@keyframes heartblue {
+  0%{ left:60px;
+  opacity: 100%}
+  100%{left:550px;
+  opacity: 50%;}
+}
+
+.container2{
+  height: 400px;
+  width: 300px;
+  position: absolute;
+  left:1100px;
+  top:300px;
+padding-right: 20px;
+animation: heartred 5s alternate;
+animation-iteration-count: infinite;
+animation-delay: 2s;
+}
+
+@keyframes heartred {
+  0%{ left:1100px;
+  opacity: 100%}
+  100%{left:550px;
+  opacity: 50%;
+  }
+}
+
+.text{
+  position: relative;
+  color: white;
+  text-align: center;
+font-family: 'EB Garamond', serif;
+font-weight: lighter;
+font-size: 24px;
+top:450px;
+padding-left: 40px;
+padding-right: 40px;
+padding-bottom: 50px;
+}
+
+.link{
+  position: relative;
+  color: lightblue;
+  font-family: 'EB Garamond', serif;
+  font-size: 18px;
+  top:450px;
+  padding: 30px;
+  left:600px;
+}
+
+audio{
+  position: relative;
+  top:450px;
+  display: hidden;
+}

@@ -1,0 +1,48 @@
+body {
+    animation: change-color 6s infinite;;
+    animation-direction: alternate;
+}
+
+@keyframes change-color {
+   0% {
+    background-color: #F55B8A;
+  }
+  25% {
+    background-color: #CD7CC8;
+  }
+  50% {
+    background-color: #8055C7;
+  }
+  75% {
+    background-color: #414BCD;
+  }
+    100% {
+    background-color: #57B4DF;
+  }
+}
+
+p{
+  font-size: 46px;
+  text-align: center;
+  font-family: sans-serif;
+  animation: text-color 6s infinite;
+  animation-direction: alternate;
+}
+
+ @keyframes text-color {
+   0% {
+       color: #57B4DF;
+  }
+  25% {
+       color: #414BCD;
+  }
+  50% {
+      color: #8055C7;
+  }
+  75% {
+      color: #CD7CC8;
+  }
+    100% {
+         color: #F55B8A;
+  }
+ }

@@ -1,0 +1,57 @@
+
+html, body, * {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+	}
+
+
+.canvas {
+    width: 1200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+        }
+
+.circle1 {
+    background-color: #50FAEE;
+    border-radius: 50%;
+    height: 595px;
+    width: 595px;
+    float: left;
+    transform: translateX(100px);
+    opacity: 70%;
+    animation-name: shape;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.circle2 {
+    background-color: #B3FCF7;
+    border-radius: 50%;
+    height: 595px;
+    width: 595px;
+    opacity: 70%;
+    float: left;
+    transform: translateX(-100px);
+
+    animation-name: shape;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes shape {
+    0%{
+      width: 595px;
+    }
+    50% {
+      width: 500px;
+    }
+    100%{
+      width: 450px;
+    }
+}
