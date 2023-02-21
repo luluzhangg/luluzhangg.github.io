@@ -1,0 +1,53 @@
+html{
+  background-color: black;
+}
+
+.container{
+  display:flex;
+  flex-direction: column;
+}
+
+.typewriter{
+  display: flex;
+  position: absolute;
+  height:5vh;
+  width:65%;
+  align-content: center;
+  margin-left: 220px;
+  margin-top: 250px;
+}
+
+.typewriter h1 {
+  font-size: 24px;
+  font-family: courier;
+  color: white;
+  overflow: hidden;
+  border-right: .15em solid white;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation:
+    typing 5s steps(40, end),
+    blink-caret 0.5s step-end infinite;
+}
+
+button{
+  background-color: white;
+  border: solid 2px white;
+  border-radius: 30px;
+  width: 140px;
+  font-size: 18px;
+  font-family: helvetica;
+  margin-left: 640px;
+  margin-top: 380px;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
