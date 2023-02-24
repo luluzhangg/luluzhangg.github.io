@@ -1,0 +1,111 @@
+@font-face {
+  font-family:'Neue Haas Regular';
+  src:url('./neue-haas/NH-regular.woff') format('woff'), url('./neue-haas/NH-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Haas Black';
+  src:url('./neue-haas/NH-black.woff') format('woff'),url('./neue-haas/NH-black.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-style: swap;
+}
+
+.title-large{
+  font-family: 'Neue Haas Black';
+  font-size: 100px;
+  text-transform: uppercase;
+  line-height: 100%;
+  margin: 10px;
+}
+
+.row-1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.row-2{
+  flex-grow: 1;
+  position: relative;
+}
+.row-2--content{
+  width: 100%;
+  height:100%;
+  position: absolute;
+  display: flex;
+}
+
+.row-2--background{
+  position: absolute;
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+
+.row-2--teeth{
+  position: absolute;
+  height: 60%;
+  width: auto;
+  top: 50%;
+  left: 50%;
+ transform: translateX(-50%) translateY(-50%);
+ opacity: 0;
+}
+
+.row-2--teeth:hover{
+  opacity: 1;
+  transition: opacity .5s ease-in-out;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.row-2--content:hover .row-2--teeth{
+  opacity: 1;
+  transform: translateX(-50%) translateY(-50%);
+  transition: opacity .5s ease-in;
+}
+
+
+h1.title-large{
+  text-align: center;
+}
+
+.flex{
+  display: flex;
+  font-family: 'Neue Haas Regular';
+  justify-content: space-between;
+  align-items: flex-end;
+  gap:20px;
+}
+.footer-detail{
+  flex-shrink: 0;
+}
+
+.line{
+  background-color: black;
+  height: 1px;
+  flex-grow: 1;
+}
+.text{
+  width:50%;
+  flex-shrink: 0;
+}
+
+.wrapper{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.bounce{
+  animation: 2s
+}
+
+@keyframes bounce {
+
+}
