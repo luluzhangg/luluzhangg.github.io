@@ -1,0 +1,56 @@
+html{
+  background-color: #c2b8a9;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grid{
+  display: grid;
+  grid-row: 3;
+  overflow: scroll;
+  column-gap: 20px;
+  background: black;
+  padding: 1em;
+  margin: 1.5em;
+  height: 100vh;
+  border-radius: 1em;
+}
+
+img{
+  width:24em;
+  height: 15em;
+  border-radius: 0.5em;
+}
+
+.headers{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+h1{
+  position: absolute;
+}
+.eng{
+  font-family: 'EB Garamond';
+  font-size: 4.5em;
+  color: white;
+  opacity: 50%;
+  float: left;
+}
+
+.chi{
+  display: inline-block;
+  font-family: 'ZCOOL QingKe HuangYou';
+  font-size: 4.5em;
+  opacity: 50%;
+  writing-mode:vertical-rl;
+  text-orientation:upright;
+  color: white;
+  float: right;
+}
