@@ -7,7 +7,7 @@ var base = new Airtable (
 ).base("appuBBpW92U6TCJ3x");
 
 base("Table 1").select({
-  maxRecords: 2,
+  maxRecords: 5,
   view:"Grid view",
 })
 
@@ -27,9 +27,47 @@ base("Table 1").select({
     photo.src = record.fields.Photo[0].url;
     document.body.appendChild(photo);
 
+    // records.forEach(function(records) {
+    //   console.log("records",mushroom.field);
+    //
+    //
+    // let container = document.querySelector(".container");
+    //
+    // let airtableItem = document.createElement("div")
+    // airtableItem.classlist.add('airtable-item')
+    //
+    // container.append(airtableItem)
+    // console.log(container)})
+
     }
    )
   }
 );
+
+//function filterItems(type, filter){
+  //let allItems = Array.from(document.querySelectorAll('.container'))
+  //let filteredItems;
+
+//  filteredItems
+//
+//filterItems('','')
+
+//}
+records.forEach(function(records) {
+  console.log("records",mushroom.field);
+
+
+let container = document.querySelector(".container");
+
+let airtableItem = document.createElement("div")
+airtableItem.classlist.add('airtable-item')
+
+container.append(airtableItem)
+console.log(container)
+}
+
+)
+//document.body.append(gridItem)
+//container.
 
 console.log(base);
