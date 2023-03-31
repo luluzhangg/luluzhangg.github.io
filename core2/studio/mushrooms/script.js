@@ -27,7 +27,7 @@ base("Table 1")
 
         let gridItems = document.querySelector(".grid-items");
 
-        let gridItem
+      //  let gridItem
 
         gridItem = document.createElement("div");
         gridItem.classList.add("grid-item");
