@@ -144,3 +144,13 @@ span{
  button{
    color: #4c2a22;
  }
+
+ .grid-items{
+   border: solid 3px #4c2a22;
+   border-top: 0;
+   display: flex;
+   flex-flow: row;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+ }

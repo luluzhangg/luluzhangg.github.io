@@ -13,6 +13,9 @@ function filterItems(type, filter) {
   console.log(filteredItems);
 }
 
+let contextContainer = document.createElement("div");
+contextContainer.classList.add("context-container");
+
 base("Table 1")
   .select({
     maxRecords: 50,
@@ -22,7 +25,8 @@ base("Table 1")
     console.log("items:", items);
     items.forEach(function (item) {
 
-      let airtableItems = document.querySelector(".grid");
+      let airtableItems = document.querySelector(".grid-items");
+
 
       // pull my airtable data
       // each record will have its own div
@@ -58,7 +62,9 @@ base("Table 1")
       airtableItem.append(itemTitle);
       airtableItem.append(itemFamily);
       // append div to body
-      document.body.append(airtableItem);
+      contextContainer.append(airtableItem);
+      document.body.append(contextContainer);
+
     });
   });
 
@@ -100,7 +106,7 @@ noedibleFilterBtn.addEventListener("click", function (event) {
   // search for data-edibility equal to "Edible"
   listofAirtableItems.forEach(function searchNoedibleFilter(item) {
     // if item.dataset.edibility equals "Edible", then we show it
-    if (item.dataset.edibility == "Non-edible") {
+    if (item.dataset.edibility == "Nonedible") {
       // if the div has data-edibility "Edible", remove the "edible-filter-hide" class and add the "edible-filter-show" class
       item.classList.remove("nonedible-filter-hide");
       item.classList.add("nonedible-filter-show");
@@ -126,3 +132,34 @@ showAllFilterBtn.addEventListener("click", function (event) {
     item.classList.add("filter-show");
   });
 });
+
+let sortToggleBtn = document.getElementById("sort-toggle");
+let isSortingAlphabetically = false;
+
+sortToggleBtn.addEventListener("click", function (event) {
+  isSortingAlphabetically = !isSortingAlphabetically;
+  sortAirtableItems(isSortingAlphabetically);
+});
+
+function sortAirtableItems(isSortingAlphabetically) {
+  let container = document.getElementById("context-container");
+  let items = Array.from(document.querySelectorAll(".airtable-item"));
+
+  if (isSortingAlphabetically) {
+    items.sort((a, b) => {
+      let nameA = a.querySelector("h2").innerHTML.toLowerCase();
+      let nameB = b.querySelector("h2").innerHTML.toLowerCase();
+      if (nameA < nameB) {
+        return -1;
+      }
+      if (nameA > nameB) {
+        return 1;
+      }
+      return 0;
+    });
+  } else {
+    items.sort((a, b) => a.dataset.index - b.dataset.index);
+  }
+
+  items.forEach((item) => contextContainer.appendChild(item));
+}

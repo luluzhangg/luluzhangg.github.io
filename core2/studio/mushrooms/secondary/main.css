@@ -91,16 +91,20 @@ p{
 }
 
 img{
-  width: 30em;
+  width: 100%;
+  height: auto;
 }
 
 .airtable-item{
-  display: grid;
-  width: 30em;
+  width: 40%;
+  height:60%;
   border: solid 3px #4c2a22;
-  border-radius: 5%;
+  border-radius: 1em;
   text-align: center;
+  justify-content:center;
   padding: 0.5em;
+  color: #4c2a22;
+  margin:0.5em;
 }
 
 .edible-filter-show{
@@ -130,14 +134,20 @@ img{
 
 .button-wrapper{
   display: flex;
-  flex-direction: column;
-    border: solid 3px #4c2a22;
-    border-top: 0px;
-    font-size: 1.5em;
+  flex-direction: row;
+    font-size: 1.3em;
     justify-content: space-around;
     padding: 0.4em;
     margin-bottom: 1em;
-    width:20%;
+    margin-top: 0.5em;
+    width:100%;
+    font-family: 'Montserrat';
+}
+
+.button-wrapper button{
+  border: solid 3px #4c2a22;
+  padding: 0.5em;
+  border-radius: 1em;
 }
 
 button{
@@ -145,10 +155,34 @@ button{
 }
 
 h2{
-  font-weight: bolder;
+  font-weight: 600;
 }
 
 h3{
   font-style: italic;
   text-align: center;
+}
+
+.context-container{
+  display: flex;
+  width: 100vw;
+  height: 60vh;
+  overflow: scroll;
+  float: right;
+  flex-direction: row;
+  padding: 1em;
+  align-items: center;
+}
+
+.button-bar button:hover{
+  font-weight: 600;
+}
+
+.button-wrapper button:hover{
+  background-color: white;
+}
+
+.airtable-item:hover{
+  background-color: white;
+  transform: scale(1.6);
 }
