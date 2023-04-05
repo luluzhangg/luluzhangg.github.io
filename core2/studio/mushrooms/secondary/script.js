@@ -34,6 +34,7 @@ base("Table 1")
       // add some data specific meta to my new divs for filtering
       airtableItem.classList.add("airtable-item");
       airtableItem.setAttribute("data-edibility", item.fields.edibility);
+      airtableItem.setAttribute("data-uses", item.fields.uses);
 
       // create a img tag for my album art
       let itemImage = document.createElement("img");
@@ -56,11 +57,18 @@ base("Table 1")
         itemFamily.innerHTML = item.fields.family;
       }
 
+      let itemUses = document.createElement("p");
+      if (item.fields.uses) {
+        itemUses.innerHTML = item.fields.uses;
+      }
+
       // appending to div holding each airtable record
       airtableItem.append(itemImage);
       airtableItem.append(itemName);
       airtableItem.append(itemTitle);
       airtableItem.append(itemFamily);
+      airtableItem.append(itemUses);
+
       // append div to body
       contextContainer.append(airtableItem);
       document.body.append(contextContainer);
@@ -132,6 +140,26 @@ showAllFilterBtn.addEventListener("click", function (event) {
     item.classList.add("filter-show");
   });
 });
+
+let culinaryFilterBtn = document.getElementById("Culinary");
+culinaryFilterBtn.addEventListener("click", function(event) {
+  console.log("culinary filter being pressed:", event.target.id);
+
+  let listofAirtableItems = document.querySelectorAll("div.airtable-item");
+
+  listofAirtableItems.forEach(function(item) {
+    if (item.dataset.uses === "Culinary") {
+      item.classList.remove("cul-filter-hide");
+      item.classList.add("cul-filter-show");
+      console.log(item);
+    } else {
+      item.classList.remove("cul-filter-show");
+      item.classList.add("cul-filter-hide");
+    }
+  });
+});
+
+
 
 let sortToggleBtn = document.getElementById("sort-toggle");
 let isSortingAlphabetically = false;
