@@ -1,21 +1,3 @@
-@font-face {
-    font-family: 'Neue Haas Black';
-    src: url('./fonts/NH-Black.woff') format('woff'),
-        url('./fonts/NH-Black.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Neue Haas Regular';
-    src: url('./fonts/NH-Regular.woff') format('woff'),
-        url('./fonts/NH-Regular.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
 html{
     margin: 0;
     font-size: 10px;
@@ -76,7 +58,7 @@ p{
   color: #4c2a22;
   width:20%;
   text-align: center;
-  padding-top: 4em;
+  padding-top: 5em;
   font-weight: 600;
 }
 
@@ -93,10 +75,10 @@ p{
 .harvest-info{
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   border: solid 3px #4c2a22;
   border-top: 0px;
   justify-content: space-between;
-
 }
 
 .picks{
@@ -105,7 +87,8 @@ p{
   border-left: 0px;
   border-bottom: 0px;
   text-align: left;
-  width:60%;
+  width:45%;
+  position: relative;
 }
 
 .sub{
@@ -129,28 +112,38 @@ p{
   padding-top: 1em;
   font-size: 1.3em;
 }
+
 span{
   font-style: italic;
 }
-
- .grid-items img{
-   width:30%;
-   border: solid 3px;
-   border-radius: 10%;
-   padding: 2em;
-   align-items: center;
- }
 
  button{
    color: #4c2a22;
  }
 
- .grid-items{
-   border: solid 3px #4c2a22;
-   border-top: 0;
-   display: flex;
-   flex-flow: row;
-   flex-direction: row;
-   flex-wrap: wrap;
-   justify-content: space-between;
+ .chanterelle-info{
+   flex-wrap: nowrap;
+   position: relative;
+   width: 55%;
+   float: right;
+   padding: 1.5em;
+   padding-top: 5em;
+   font-size: 1.2em;
+   text-align: center;
+   line-height: 1.6;
+   font-weight: 400;
+ }
+
+ h3{
+   color: #4c2a22;
+ }
+
+ .button-bar button:hover{
+   font-weight: 600;
+ }
+
+ .bold{
+   font-style: normal;
+   font-weight: 600;
+   background-color:#d6ab6b;
  }
