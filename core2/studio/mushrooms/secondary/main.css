@@ -246,3 +246,51 @@ h3{
   border-radius: 2em;
   margin-top: 0.5em;
 }
+
+@media only screen and (max-width: 600px) {
+  .harvest{
+  font-size: 10vw; /* changed from font-size: 5em; */
+}
+
+.title{
+  width: 100%; /* changed from width: 60%; */
+  border-left: none; /* changed from border-left: solid 3px #4c2a22; */
+  border-right: none; /* changed from border-right: solid 3px #4c2a22; */
+}
+
+.illustration{
+  height: auto; /* changed from height: 24vh; */
+  width: 40vw; /* changed from width: 12vw; */
+}
+
+.logo{
+  width:30%; /* changed from width:20%; */
+  padding-left: 1em; /* changed from padding-left: 3.3em; */
+}
+
+.title-info{
+  font-size: 5vw; /* changed from font-size: 2rem; */
+  width: 50%; /* changed from width:20%; */
+}
+
+.button-bar{
+  font-size: 3vw; /* changed from font-size: 1.5em; */
+}
+
+.button-wrapper{
+  font-size: 2.5vw; /* changed from font-size: 1.3em; */
+}
+
+.button-uses{
+  font-size: 2.5vw; /* changed from font-size: 1.3em; */
+}
+
+.button-wrapper h4{
+  font-size: 2vw; /* changed from font-size: 1.2em; */
+}
+
+.context-container{
+  overflow-y: scroll;
+}
+
+}
