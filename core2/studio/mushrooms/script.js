@@ -25,7 +25,7 @@ base("Table 1")
       records.forEach(function (item, index) {
         console.log("item", item.fields);
 
-        let gridItems = document.querySelector(".grid-items");
+        let gridItems = document.querySelector(".");
 
       //  let gridItem
 

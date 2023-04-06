@@ -130,11 +130,8 @@ noedibleFilterBtn.addEventListener("click", function (event) {
 let showAllFilterBtn = document.getElementById("ShowAll");
 showAllFilterBtn.addEventListener("click", function (event) {
   console.log("show all filter being pressed:", event.target.id);
-  // search my airtable-item divs, and see which data-mood contains "empowering"
-  // put my airtable-divs in an array [airtable-div 1, airtable-div-2], find the div tht has data-mood
   let listofAirtableItems = document.querySelectorAll("div.airtable-item");
 
-  // search for data-mood, containg empowering
   listofAirtableItems.forEach(function ShowAllFilter(item) {
     item.classList.remove("filter-hide");
     item.classList.add("filter-show");
@@ -159,6 +156,59 @@ culinaryFilterBtn.addEventListener("click", function(event) {
   });
 });
 
+let medicinalFilterBtn = document.getElementById("Medicinal");
+medicinalFilterBtn.addEventListener("click", function(event) {
+  console.log("medicinal filter being pressed:", event.target.id);
+
+  let listofAirtableItems = document.querySelectorAll("div.airtable-item");
+
+  listofAirtableItems.forEach(function(item) {
+    if (item.dataset.uses === "Medicinal") {
+      item.classList.remove("med-filter-hide");
+      item.classList.add("med-filter-show");
+      console.log(item);
+    } else {
+      item.classList.remove("med-filter-show");
+      item.classList.add("med-filter-hide");
+    }
+  });
+});
+
+let psychedelicFilterBtn = document.getElementById("Psychedelics");
+psychedelicFilterBtn.addEventListener("click", function(event) {
+  console.log("psychedelics filter being pressed:", event.target.id);
+
+  let listofAirtableItems = document.querySelectorAll("div.airtable-item");
+
+  listofAirtableItems.forEach(function(item) {
+    if (item.dataset.uses === "Psychedelics") {
+      item.classList.remove("psy-filter-hide");
+      item.classList.add("psy-filter-show");
+      console.log(item);
+    } else {
+      item.classList.remove("psy-filter-show");
+      item.classList.add("psy-filter-hide");
+    }
+  });
+});
+
+let poisonFilterBtn = document.getElementById("Poisonous");
+poisonFilterBtn.addEventListener("click", function(event) {
+  console.log("poisonous filter being pressed:", event.target.id);
+
+  let listofAirtableItems = document.querySelectorAll("div.airtable-item");
+
+  listofAirtableItems.forEach(function(item) {
+    if (item.dataset.uses === "Poisonous") {
+      item.classList.remove("poi-filter-hide");
+      item.classList.add("poi-filter-show");
+      console.log(item);
+    } else {
+      item.classList.remove("poi-filter-show");
+      item.classList.add("poi-filter-hide");
+    }
+  });
+});
 
 
 let sortToggleBtn = document.getElementById("sort-toggle");

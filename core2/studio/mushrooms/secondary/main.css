@@ -134,10 +134,37 @@ p{
 
 .cul-filter-show{
   display: block;
-  background-color: green;
+  background-color: #e08867;
 }
 
 .cul-filter-hide{
+  display: none;
+}
+
+.med-filter-show{
+  display: block;
+  background-color: #749c6b;
+}
+
+.med-filter-hide{
+  display: none;
+}
+
+.psy-filter-show{
+  display: block;
+  background-color: #6583a6;
+}
+
+.psy-filter-hide{
+  display: none;
+}
+
+.poi-filter-show{
+  display: block;
+  background-color: #755f85;
+}
+
+.poi-filter-hide{
   display: none;
 }
 
@@ -153,7 +180,26 @@ p{
   border-top: 0;
 }
 
+.button-uses{
+  display: flex;
+  flex-direction: row;
+  font-size: 1.3em;
+  justify-content: space-around;
+  padding: 0.4em;
+  margin-bottom:;
+  width:100%;
+  border: solid 3px #4c2a22;
+  border-top: 0;
+}
+
+
 .button-wrapper button{
+  font-family: 'Montserrat';
+  border: solid 3px #4c2a22;
+  padding: 0.5em;
+  border-radius: 1em;
+}
+.button-uses button{
   font-family: 'Montserrat';
   border: solid 3px #4c2a22;
   padding: 0.5em;
