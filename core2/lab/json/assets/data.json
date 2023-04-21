@@ -1,0 +1,219 @@
+[
+    {
+        "name":"Bois D'Argent", 
+        "colour":"Gold",
+        "family":"Sensual",
+        "intensity": "4/4",
+        "notes":"Smokey",
+        "character":"Iris Heart",
+        "image": "./assets/imgs/bois.jpg"
+    },
+    {
+        "name":"Eden Roc", 
+        "colour":"Gold",
+        "family":"Sensual",
+        "intensity": "3/4",
+        "notes":"Floral/ Woody",
+        "character":"Sea Salt",
+        "image": "./assets/imgs/eden.jpg"
+    },
+    {
+        "name":"Spice Blend", 
+        "colour":"Cinnamon",
+        "family":"Sensual",
+        "intensity": "3/4",
+        "notes":"Woody",
+        "character":"Rum Extract",
+        "image": "./assets/imgs/spice.jpg"
+    },
+    {
+        "name":"Dioramore", 
+        "colour":"Pale Pink",
+        "family":"Sensual",
+        "intensity": "3/4",
+        "notes":"Floral",
+        "character":"Jasmine",
+        "image": "./assets/imgs/dioramore.jpg"
+    },
+    {
+        "name":"Vanilla Diorama", 
+        "colour":"Gold/ Amber",
+        "family":"Warm",
+        "intensity": "3/4",
+        "notes":"Sweet",
+        "character":"Madagascar Vanilla",
+        "image": "./assets/imgs/vanilla.jpg"
+    },
+    {
+        "name":"Oud Ispahan", 
+        "colour":"Rose",
+        "family":"Warm",
+        "intensity": "4/4",
+        "notes":"Woody/ Spice/ Floral",
+        "character":"Damascus Rose",
+        "image": "./assets/imgs/ispahan.jpg"
+    },
+    {
+        "name":"Ambre Nuit", 
+        "colour":"Amber",
+        "family":"Warm",
+        "intensity": "4/4",
+        "notes":"Warm-floral",
+        "character":"Turkish Rose",
+        "image": "./assets/imgs/amber.jpg"
+    },
+    {
+        "name":"Fève Dèlicieuse", 
+        "colour":"Caramel",
+        "family":"Warm",
+        "intensity": "4/4",
+        "notes":"Spice/ Smoky",
+        "character":"Tonka Bean",
+        "image": "./assets/imgs/feve.jpg"
+    },
+    {
+        "name":"Purple Oud", 
+        "colour":"Mauve",
+        "family":"Warm",
+        "intensity": "3/4",
+        "notes":"Spice/ Citrus",
+        "character":"Oud",
+        "image": "./assets/imgs/purple.jpg"
+    },
+    {
+        "name":"Oud Rosewood", 
+        "colour":"Rose-gold",
+        "family":"Warm",
+        "intensity": "4/4",
+        "notes":"Woody/ Floral",
+        "character":"Sandalwood",
+        "image": "./assets/imgs/rosewood.jpg"
+    },
+    {
+        "name":"Cologne Blanche", 
+        "colour":"Yellow",
+        "family":"Floral",
+        "intensity": "3/4",
+        "notes":"Floral",
+        "character":"Orange Blossom",
+        "image": "./assets/imgs/blanche.jpg"
+    },
+    {
+        "name":"Gris Dior", 
+        "colour":"Purple-grey",
+        "family":"Floral",
+        "intensity": "3/4",
+        "notes":"Woody/ Floral",
+        "character":"Chypre",
+        "image": "./assets/imgs/gris.jpg"
+    },
+    {
+        "name":"New Look 1947", 
+        "colour":"Gold",
+        "family":"Floral",
+        "intensity": "3/4",
+        "notes":"Sweet/ Floral",
+        "character":"Rose and Jasmine",
+        "image": "./assets/imgs/new.jpg"
+    },
+    {
+        "name":"Jasmin Des Anges", 
+        "colour":"Apricot",
+        "family":"Floral",
+        "intensity": "3/4",
+        "notes":"Sweet/ Floral",
+        "character":"Jasmine and Apricot",
+        "image": "./assets/imgs/jasmin.jpg"
+    },
+    {
+        "name":"Le Colle Noire", 
+        "colour":"Pink",
+        "family":"Floral",
+        "intensity": "3/4",
+        "notes":"Woody/ Spice/ Floral",
+        "character":"May Rose",
+        "image": "./assets/imgs/noire.jpg"
+    },
+    {
+        "name":"Lucky", 
+        "colour":"Pale Green",
+        "family":"Light-floral",
+        "intensity": "2/4",
+        "notes":"Fresh/ Floral",
+        "character":"Lily-of-the-Valley",
+        "image": "./assets/imgs/lucky.jpg"
+    },
+    {
+        "name":"Thé Cashemire", 
+        "colour":"Green",
+        "family":"Light-floral",
+        "intensity": "2/4",
+        "notes":"Fresh/ Floral",
+        "character":"Tea",
+        "image": "./assets/imgs/cash.jpg"
+    },
+    {
+        "name":"Rose Gipsy", 
+        "colour":"Pink",
+        "family":"Light-floral",
+        "intensity": "2/4",
+        "notes":"Spice/ Floral",
+        "character":"Rose",
+        "image": "./assets/imgs/gipsy.jpg"
+    },
+    {
+        "name":"Rose Kabuki", 
+        "colour":"Pale-coral",
+        "family":"Light-floral",
+        "intensity": "2/4",
+        "notes":"Musk/ Powdery/ Floral",
+        "character":"Rose",
+        "image": "./assets/imgs/kabuki.jpg"
+    },
+    {
+        "name":"Sakura", 
+        "colour":"Cool-pink",
+        "family":"Light-floral",
+        "intensity": "2/4",
+        "notes":"Fresh/ Musk/ Floral",
+        "character":"Cherry Blossom",
+        "image": "./assets/imgs/sakura.jpg"
+    },
+    {
+        "name":"Rouge Trafalgar ", 
+        "colour":"Pale Red",
+        "family":"Fruity-floral",
+        "intensity": "3/4",
+        "notes":"Fruity/ Woody/ Floral",
+        "character":"Red Berries",
+        "image": "./assets/imgs/rouge.jpg"
+    },
+    {
+        "name":"Holy Peony", 
+        "colour":"Pale Red",
+        "family":"Fruity-floral",
+        "intensity": "3/4",
+        "notes":"Fresh/ Woody/ Floral",
+        "character":"Peony Blossom",
+        "image": "./assets/imgs/holy.jpg"
+    },
+    {
+        "name":"Diorissma", 
+        "colour":"Orange-green",
+        "family":"Fruity-floral",
+        "intensity": "1/4",
+        "notes":"Citrus/ Musk",
+        "character":"White Flowers",
+        "image": "./assets/imgs/dior.jpg"
+    },
+    {
+        "name":"Happy Hour", 
+        "colour":"Coral",
+        "family":"Fruity-floral",
+        "intensity": "1/4",
+        "notes":"Fresh/ Sweet/ Floral",
+        "character":"Cranberry and Ylang Ylang",
+        "image": "./assets/imgs/happy.jpg"
+    }
+
+]
