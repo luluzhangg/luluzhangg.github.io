@@ -71,6 +71,7 @@ img{
     width: 35vw;
     margin-left: 4em;
     display: none;
+    filter: invert(1);
 }
 
 .image{
@@ -81,12 +82,14 @@ img{
     padding-left: 3em;
     align-content: center;
     border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.275);
 }
 
 #others {
     width:400px;
     height: auto;
     margin-top: 2em;
+    filter: none;
 }
 
 #external{

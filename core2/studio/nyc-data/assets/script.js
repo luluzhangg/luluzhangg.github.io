@@ -28,3 +28,5 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+// let yesBtn = document.getElementsByClassName('.yesbtn')
