@@ -24,7 +24,6 @@ collection.forEach((item) => {
         dotContainer.style.right = `${percentX}%`;
         dotContainer.style.top = `${percentY}%`;
     }
-
 });
 
 

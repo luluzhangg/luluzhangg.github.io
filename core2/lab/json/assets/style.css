@@ -10,7 +10,7 @@ html{
 
 }
   
-.title{
+#title{
     font-family: 'Cormorant Garamond';
     font-size: 4.5em;
     font-weight: 500;
@@ -114,6 +114,20 @@ button:hover{
 
 .filter-hide{
   display: none;
+}
+
+.title:hover{
+  cursor: pointer;
+}
+.tool-tip{
+  opacity: 0;
+  width: 30%;
+  height: 20%;
+}
+
+.hovering{
+  opacity:1;
+  color: black;
 }
 
 @media only screen and (max-width: 500px) {

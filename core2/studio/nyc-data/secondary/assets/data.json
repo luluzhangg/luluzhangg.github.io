@@ -1,0 +1,1262 @@
+[
+  {
+    "year": 2019,
+    "cause": "Diseases of Heart (I00-I09, I11, I13, I20-I51)",
+    "target-area": "Cardiovascular System",
+    "sex": "Female",
+    "ethnicity": "Non-Hispanic White",
+    "deaths": 4001,
+    "death-rate": 291.7699153
+  },
+  {
+    "year": 2019,
+    "cause": "Malignant Neoplasms (Cancer: C00-C97)",
+    "target-area": "Whole Body",
+    "sex": "Female",
+    "ethnicity": "Non-Hispanic White",
+    "deaths": 2655,
+    "death-rate": 193.6138778
+  },
+  {
+    "year": 2019,
+    "cause": "Diseases of Heart (I00-I09, I11, I13, I20-I51)",
+    "target-area": "Cardiovascular System",
+    "sex": "Female",
+    "ethnicity": "Non-Hispanic Black",
+    "deaths": 2483,
+    "death-rate": 249.0161705
+  },
+  {
+    "year": 2019,
+    "cause": "All Other Causes",
+    "target-area": "Other",
+    "sex": "Female",
+    "ethnicity": "Non-Hispanic White",
+    "deaths": 2265,
+    "death-rate": 165.1734212
+  },
+  {
+    "year": 2019,
+    "cause": "Malignant Neoplasms (Cancer: C00-C97)",
+    "target-area": "Whole Body",
+    "sex": "Female",
+    "ethnicity": "Non-Hispanic Black",
+    "deaths": 1753,
+    "death-rate": 175.805617
+  },
+  {
+    "year": 2019,
+    "cause": "All Other Causes",
+    "target-area": "Other",
+    "sex": "Female",
+    "ethnicity": "Non-Hispanic Black",
+    "deaths": 1579,
+    "death-rate": 158.3554302
+  },
+  {
+    "year": 2019,
+    "cause": "Diseases of Heart (I00-I09, I11, I13, I20-I51)",
+    "target-area": "Cardiovascular System",
+    "sex": "Female",
+    "ethnicity": "Hispanic",
+    "deaths": 1574,
+    "death-rate": 125.7357217
+  },
+  {
+    "year": 2019,
+    "cause": "All Other Causes",
+    "target-area": "Other",
+    "sex": "Female",
+    "ethnicity": "Hispanic",
+    "deaths": 1279,
+    "death-rate": 102.1702593
+  },
+  {
+    "year": 2019,
+    "cause": "Malignant Neoplasms (Cancer: C00-C97)",
+    "target-area": "Whole Body",
+    "sex": "Female",
+    "ethnicity": "Hispanic",
+    "deaths": 1182,
+    "death-rate": 94.42161568
+  },
+  {
+    "year": 2019,
+    "cause": "Diseases of Heart (I00-I09, I11, I13, I20-I51)",
+    "target-area": "Cardiovascular System",
+    "sex": "Female",
+    "ethnicity": "Asian and Pacific Islander",
+    "deaths": 623,
+    "death-rate": 96.18932777
+  },
+  {
+    "year": 2019,
+    "cause": "Malignant Neoplasms (Cancer: C00-C97)",
+    "target-area": "Whole Body",
+    "sex": "Female",
+    "ethnicity": "Asian and Pacific Islander",
+    "deaths": 581,
+    "death-rate": 89.70465399
+  },
+  {
+    "year": 2019,
+    "cause": "Chronic Lower Respiratory Diseases (J40-J47)",
+    "target-area": "Respiratory System",
+    "sex": "Female",
+    "ethnicity": "Non-Hispanic White",
+    "deaths": 480,
+    "death-rate": 35.00363892
+  },
+  {
+    "year": 2019,
+    "cause": "All Other Causes",
+    "target-area": "Other",
+    "sex": "Female",
+    "ethnicity": "Asian and Pacific Islander",
+    "deaths": 402,
+    "death-rate": 62.06759192
+  },
+  {
+    "year": 2019,
+    "cause": "Cerebrovascular Disease (Stroke: I60-I69)",
+    "target-area": "Nervous System",
+    "sex": "Female",
+    "ethnicity": "Non-Hispanic White",
+    "deaths": 390,
+    "death-rate": 28.44045662
+  },
+  {
+    "year": 2019,
+    "cause": "Diabetes Mellitus (E10-E14)",
+    "target-area": "Endocrine System",
+    "sex": "Female",
+    "ethnicity": "Non-Hispanic Black",
+    "deaths": 383,
+    "death-rate": 38.41046851
+  },
+  {
+    "year": 2019,
+    "cause": "Alzheimer's Disease (G30)",
+    "target-area": "Nervous System",
+    "sex": "Female",
+    "ethnicity": "Non-Hispanic White",
+    "deaths": 341,
+    "death-rate": 24.86716848
+  },
+  {
+    "year": 2019,
+    "cause": "Cerebrovascular Disease (Stroke: I60-I69)",
+    "target-area": "Nervous System",
+    "sex": "Female",
+    "ethnicity": "Non-Hispanic Black",
+    "deaths": 315,
+    "death-rate": 31.5908553
+  },
+  {
+    "year": 2019,
+    "cause": "Influenza (Flu) and Pneumonia (J09-J18)",
+    "target-area": "Immune System",
+    "sex": "Female",
+    "ethnicity": "Non-Hispanic White",
+    "deaths": 307,
+    "death-rate": 22.38774406
+  },
+  {
+    "year": 2019,
+    "cause": "Essential Hypertension and Renal Diseases (I10, I12)",
+    "target-area": "Endocrine System",
+    "sex": "Female",
+    "ethnicity": "Non-Hispanic Black",
+    "deaths": 290,
+    "death-rate": 29.08364456
+  },
+  {
+    "year": 2019,
+    "cause": "Cerebrovascular Disease (Stroke: I60-I69)",
+    "target-area": "Nervous System",
+    "sex": "Female",
+    "ethnicity": "Hispanic",
+    "deaths": 249,
+    "death-rate": 19.89084797
+  },
+  {
+    "year": 2019,
+    "cause": "Chronic Lower Respiratory Diseases (J40-J47)",
+    "target-area": "Respiratory System",
+    "sex": "Female",
+    "ethnicity": "Non-Hispanic Black",
+    "deaths": 242,
+    "death-rate": 24.26979995
+  },
+  {
+    "year": 2019,
+    "cause": "Alzheimer's Disease (G30)",
+    "target-area": "Nervous System",
+    "sex": "Female",
+    "ethnicity": "Hispanic",
+    "deaths": 231,
+    "death-rate": 18.45295535
+  },
+  {
+    "year": 2019,
+    "cause": "Essential Hypertension and Renal Diseases (I10, I12)",
+    "target-area": "Endocrine System",
+    "sex": "Female",
+    "ethnicity": "Non-Hispanic White",
+    "deaths": 228,
+    "death-rate": 16.62672849
+  },
+  {
+    "year": 2019,
+    "cause": "Influenza (Flu) and Pneumonia (J09-J18)",
+    "target-area": "Immune System",
+    "sex": "Female",
+    "ethnicity": "Non-Hispanic Black",
+    "deaths": 227,
+    "death-rate": 22.7654735
+  },
+  {
+    "year": 2019,
+    "cause": "Diabetes Mellitus (E10-E14)",
+    "target-area": "Endocrine System",
+    "sex": "Female",
+    "ethnicity": "Hispanic",
+    "deaths": 214,
+    "death-rate": 17.09494565
+  },
+  {
+    "year": 2019,
+    "cause": "Diabetes Mellitus (E10-E14)",
+    "target-area": "Endocrine System",
+    "sex": "Female",
+    "ethnicity": "Non-Hispanic White",
+    "deaths": 197,
+    "death-rate": 14.36607681
+  },
+  {
+    "year": 2019,
+    "cause": "Chronic Lower Respiratory Diseases (J40-J47)",
+    "target-area": "Respiratory System",
+    "sex": "Female",
+    "ethnicity": "Hispanic",
+    "deaths": 178,
+    "death-rate": 14.2191604
+  },
+  {
+    "year": 2019,
+    "cause": "Alzheimer's Disease (G30)",
+    "target-area": "Nervous System",
+    "sex": "Female",
+    "ethnicity": "Non-Hispanic Black",
+    "deaths": 171,
+    "death-rate": 17.14932145
+  },
+  {
+    "year": 2019,
+    "cause": "Accidents Except Drug Poisoning (V01-X39, X43, X45-X59, Y85-Y86)",
+    "target-area": "External Factors",
+    "sex": "Female",
+    "ethnicity": "Non-Hispanic White",
+    "deaths": 167,
+    "death-rate": 12.17834937
+  },
+  {
+    "year": 2019,
+    "cause": "Influenza (Flu) and Pneumonia (J09-J18)",
+    "target-area": "Immune System",
+    "sex": "Female",
+    "ethnicity": "Hispanic",
+    "deaths": 156,
+    "death-rate": 12.46173608
+  },
+  {
+    "year": 2019,
+    "cause": "Essential Hypertension and Renal Diseases (I10, I12)",
+    "target-area": "Endocrine System",
+    "sex": "Female",
+    "ethnicity": "Hispanic",
+    "deaths": 151,
+    "death-rate": 12.06232146
+  },
+  {
+    "year": 2019,
+    "cause": "Diseases of Heart (I00-I09, I11, I13, I20-I51)",
+    "target-area": "Cardiovascular System",
+    "sex": "Female",
+    "ethnicity": "Not Stated/Unknown",
+    "deaths": 149,
+    "death-rate": 164.7227903
+  },
+  {
+    "year": 2019,
+    "cause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+    "target-area": "External Factors",
+    "sex": "Female",
+    "ethnicity": "Non-Hispanic White",
+    "deaths": 125,
+    "death-rate": 9.115530969
+  },
+  {
+    "year": 2019,
+    "cause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+    "target-area": "External Factors",
+    "sex": "Female",
+    "ethnicity": "Non-Hispanic Black",
+    "deaths": 120,
+    "death-rate": 12.03461154
+  },
+  {
+    "year": 2019,
+    "cause": "Cerebrovascular Disease (Stroke: I60-I69)",
+    "target-area": "Nervous System",
+    "sex": "Female",
+    "ethnicity": "Asian and Pacific Islander",
+    "deaths": 110,
+    "death-rate": 16.98366943
+  },
+  {
+    "year": 2019,
+    "cause": "All Other Causes",
+    "target-area": "Other",
+    "sex": "Female",
+    "ethnicity": "Not Stated/Unknown",
+    "deaths": 107,
+    "death-rate": 118.2908629
+  },
+  {
+    "year": 2019,
+    "cause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+    "target-area": "External Factors",
+    "sex": "Female",
+    "ethnicity": "Hispanic",
+    "deaths": 104,
+    "death-rate": 8.307824053
+  },
+  {
+    "year": 2019,
+    "cause": "Accidents Except Drug Poisoning (V01-X39, X43, X45-X59, Y85-Y86)",
+    "target-area": "External Factors",
+    "sex": "Female",
+    "ethnicity": "Hispanic",
+    "deaths": 98,
+    "death-rate": 7.828526512
+  },
+  {
+    "year": 2019,
+    "cause": "Malignant Neoplasms (Cancer: C00-C97)",
+    "target-area": "Whole Body",
+    "sex": "Female",
+    "ethnicity": "Not Stated/Unknown",
+    "deaths": 96,
+    "death-rate": 106.13012
+  },
+  {
+    "year": 2019,
+    "cause": "Nephritis, Nephrotic Syndrome and Nephrisis (N00-N07, N17-N19, N25-N27)",
+    "target-area": "Endocrine System",
+    "sex": "Female",
+    "ethnicity": "Non-Hispanic Black",
+    "deaths": 96,
+    "death-rate": 9.627689234
+  },
+  {
+    "year": 2019,
+    "cause": "Diabetes Mellitus (E10-E14)",
+    "target-area": "Endocrine System",
+    "sex": "Female",
+    "ethnicity": "Asian and Pacific Islander",
+    "deaths": 78,
+    "death-rate": 12.0429656
+  },
+  {
+    "year": 2019,
+    "cause": "Influenza (Flu) and Pneumonia (J09-J18)",
+    "target-area": "Immune System",
+    "sex": "Female",
+    "ethnicity": "Asian and Pacific Islander",
+    "deaths": 67,
+    "death-rate": 10.34459865
+  },
+  {
+    "year": 2019,
+    "cause": "Essential Hypertension and Renal Diseases (I10, I12)",
+    "target-area": "Endocrine System",
+    "sex": "Female",
+    "ethnicity": "Asian and Pacific Islander",
+    "deaths": 66,
+    "death-rate": 10.19020166
+  },
+  {
+    "year": 2019,
+    "cause": "Alzheimer's Disease (G30)",
+    "target-area": "Nervous System",
+    "sex": "Female",
+    "ethnicity": "Asian and Pacific Islander",
+    "deaths": 50,
+    "death-rate": 7.719849741
+  },
+  {
+    "year": 2019,
+    "cause": "Chronic Lower Respiratory Diseases (J40-J47)",
+    "target-area": "Respiratory System",
+    "sex": "Female",
+    "ethnicity": "Asian and Pacific Islander",
+    "deaths": 40,
+    "death-rate": 6.175879793
+  },
+  {
+    "year": 2019,
+    "cause": "Intentional Self-Harm (Suicide: U03, X60-X84, Y87.0)",
+    "target-area": "Self-inflicted",
+    "sex": "Female",
+    "ethnicity": "Asian and Pacific Islander",
+    "deaths": 40,
+    "death-rate": 6.175879793
+  },
+  {
+    "year": 2019,
+    "cause": "Accidents Except Drug Poisoning (V01-X39, X43, X45-X59, Y85-Y86)",
+    "target-area": "External Factors",
+    "sex": "Female",
+    "ethnicity": "Asian and Pacific Islander",
+    "deaths": 40,
+    "death-rate": 6.175879793
+  },
+  {
+    "year": 2019,
+    "cause": "Diseases of Heart (I00-I09, I11, I13, I20-I51)",
+    "target-area": "Cardiovascular System",
+    "sex": "Female",
+    "ethnicity": "Other Race/ Ethnicity",
+    "deaths": 30,
+    "death-rate": ""
+  },
+  {
+    "year": 2019,
+    "cause": "Diabetes Mellitus (E10-E14)",
+    "target-area": "Endocrine System",
+    "sex": "Female",
+    "ethnicity": "Not Stated/Unknown",
+    "deaths": 29,
+    "death-rate": 32.0601404
+  },
+  {
+    "year": 2019,
+    "cause": "Cerebrovascular Disease (Stroke: I60-I69)",
+    "target-area": "Nervous System",
+    "sex": "Female",
+    "ethnicity": "Not Stated/Unknown",
+    "deaths": 20,
+    "death-rate": 22.11044166
+  },
+  {
+    "year": 2019,
+    "cause": "All Other Causes",
+    "target-area": "Other",
+    "sex": "Female",
+    "ethnicity": "Other Race/ Ethnicity",
+    "deaths": 17,
+    "death-rate": ""
+  },
+  {
+    "year": 2019,
+    "cause": "Malignant Neoplasms (Cancer: C00-C97)",
+    "target-area": "Whole Body",
+    "sex": "Female",
+    "ethnicity": "Other Race/ Ethnicity",
+    "deaths": 17,
+    "death-rate": ""
+  },
+  {
+    "year": 2019,
+    "cause": "Essential Hypertension and Renal Diseases (I10, I12)",
+    "target-area": "Endocrine System",
+    "sex": "Female",
+    "ethnicity": "Not Stated/Unknown",
+    "deaths": 15,
+    "death-rate": 16.58283124
+  },
+  {
+    "year": 2019,
+    "cause": "Chronic Lower Respiratory Diseases (J40-J47)",
+    "target-area": "Respiratory System",
+    "sex": "Female",
+    "ethnicity": "Not Stated/Unknown",
+    "deaths": 13,
+    "death-rate": 14.37178708
+  },
+  {
+    "year": 2019,
+    "cause": "Accidents Except Drug Poisoning (V01-X39, X43, X45-X59, Y85-Y86)",
+    "target-area": "External Factors",
+    "sex": "Female",
+    "ethnicity": "Not Stated/Unknown",
+    "deaths": 12,
+    "death-rate": 13.26626499
+  },
+  {
+    "year": 2019,
+    "cause": "Influenza (Flu) and Pneumonia (J09-J18)",
+    "target-area": "Immune System",
+    "sex": "Female",
+    "ethnicity": "Not Stated/Unknown",
+    "deaths": 10,
+    "death-rate": 11.05522083
+  },
+  {
+    "year": 2019,
+    "cause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+    "target-area": "External Factors",
+    "sex": "Female",
+    "ethnicity": "Not Stated/Unknown",
+    "deaths": 8,
+    "death-rate": 8.844176662
+  },
+  {
+    "year": 2019,
+    "cause": "Certain Conditions originating in the Perinatal Period (P00-P96)",
+    "target-area": "Reproductive System",
+    "sex": "Female",
+    "ethnicity": "Not Stated/Unknown",
+    "deaths": 8,
+    "death-rate": 8.844176662
+  },
+  {
+    "year": 2019,
+    "cause": "Influenza (Flu) and Pneumonia (J09-J18)",
+    "target-area": "Immune System",
+    "sex": "Female",
+    "ethnicity": "Other Race/ Ethnicity",
+    "deaths": 5,
+    "death-rate": ""
+  },
+  {
+    "year": 2019,
+    "cause": "Alzheimer's Disease (G30)",
+    "target-area": "Nervous System",
+    "sex": "Female",
+    "ethnicity": "Other Race/ Ethnicity",
+    "deaths": 3,
+    "death-rate": ""
+  },
+  {
+    "year": 2019,
+    "cause": "Chronic Lower Respiratory Diseases (J40-J47)",
+    "target-area": "Respiratory System",
+    "sex": "Female",
+    "ethnicity": "Other Race/ Ethnicity",
+    "deaths": 2,
+    "death-rate": ""
+  },
+  {
+    "year": 2019,
+    "cause": "Cerebrovascular Disease (Stroke: I60-I69)",
+    "target-area": "Nervous System",
+    "sex": "Female",
+    "ethnicity": "Other Race/ Ethnicity",
+    "deaths": 2,
+    "death-rate": ""
+  },
+  {
+    "year": 2019,
+    "cause": "Nephritis, Nephrotic Syndrome and Nephrisis (N00-N07, N17-N19, N25-N27)",
+    "target-area": "Endocrine System",
+    "sex": "Female",
+    "ethnicity": "Other Race/ Ethnicity",
+    "deaths": 2,
+    "death-rate": ""
+  },
+  {
+    "year": 2019,
+    "cause": "Essential Hypertension and Renal Diseases (I10, I12)",
+    "target-area": "Endocrine System",
+    "sex": "Female",
+    "ethnicity": "Other Race/ Ethnicity",
+    "deaths": 2,
+    "death-rate": ""
+  },
+  {
+    "year": 2019,
+    "cause": "Cholelithiasis and Disorders of Gallbladder (K80-K82)",
+    "target-area": "Digestive System",
+    "sex": "Female",
+    "ethnicity": "Other Race/ Ethnicity",
+    "deaths": 1,
+    "death-rate": ""
+  },
+  {
+    "year": 2019,
+    "cause": "Septicemia (A40-A41)",
+    "target-area": "Immune System",
+    "sex": "Female",
+    "ethnicity": "Other Race/ Ethnicity",
+    "deaths": 1,
+    "death-rate": ""
+  },
+  {
+    "year": 2019,
+    "cause": "Parkinson's Disease (G20)",
+    "target-area": "Nervous System",
+    "sex": "Female",
+    "ethnicity": "Other Race/ Ethnicity",
+    "deaths": 1,
+    "death-rate": ""
+  },
+  {
+    "year": 2019,
+    "cause": "Mental and Behavioral Disorders due to Use of Alcohol (F10)",
+    "target-area": "External Factors",
+    "sex": "Female",
+    "ethnicity": "Other Race/ Ethnicity",
+    "deaths": 1,
+    "death-rate": ""
+  },
+  {
+    "year": 2019,
+    "cause": "Peptic Ulcer (K25-K28)",
+    "target-area": "Digestive System",
+    "sex": "Female",
+    "ethnicity": "Other Race/ Ethnicity",
+    "deaths": 1,
+    "death-rate": ""
+  },
+  {
+    "year": 2019,
+    "cause": "Diabetes Mellitus (E10-E14)",
+    "target-area": "Endocrine System",
+    "sex": "Female",
+    "ethnicity": "Other Race/ Ethnicity",
+    "deaths": 1,
+    "death-rate": ""
+  },
+  {
+    "year": 2019,
+    "cause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+    "target-area": "External Factors",
+    "sex": "Female",
+    "ethnicity": "Other Race/ Ethnicity",
+    "deaths": 1,
+    "death-rate": ""
+  },
+  {
+    "year": 2019,
+    "cause": "Intentional Self-Harm (Suicide: U03, X60-X84, Y87.0)",
+    "target-area": "Self-inflicted",
+    "sex": "Female",
+    "ethnicity": "Other Race/ Ethnicity",
+    "deaths": 1,
+    "death-rate": ""
+  },
+  {
+    "year": 2019,
+    "cause": "Congenital Malformations, Deformations, and Chromosomal Abnormalities (Q00-Q99)",
+    "target-area": "Reproductive System",
+    "sex": "Female",
+    "ethnicity": "Other Race/ Ethnicity",
+    "deaths": 1,
+    "death-rate": ""
+  },
+  {
+    "year": 2019,
+    "cause": "Accidents Except Drug Poisoning (V01-X39, X43, X45-X59, Y85-Y86)",
+    "target-area": "External Factors",
+    "sex": "Female",
+    "ethnicity": "Other Race/ Ethnicity",
+    "deaths": 1,
+    "death-rate": ""
+  },
+  {
+    "year": 2019,
+    "cause": "Anemias (D50-D64)",
+    "target-area": "Immune System",
+    "sex": "Female",
+    "ethnicity": "Other Race/ Ethnicity",
+    "deaths": 1,
+    "death-rate": ""
+  },
+  {
+    "year": 2019,
+    "cause": "Diseases of Heart (I00-I09, I11, I13, I20-I51)",
+    "target-area": "Cardiovascular System",
+    "sex": "Male",
+    "ethnicity": "Non-Hispanic White",
+    "deaths": 4034,
+    "death-rate": 307.7768198
+  },
+  {
+    "year": 2019,
+    "cause": "Malignant Neoplasms (Cancer: C00-C97)",
+    "target-area": "Whole Body",
+    "sex": "Male",
+    "ethnicity": "Non-Hispanic White",
+    "deaths": 2785,
+    "death-rate": 212.4835011
+  },
+  {
+    "year": 2019,
+    "cause": "All Other Causes",
+    "target-area": "Other",
+    "sex": "Male",
+    "ethnicity": "Non-Hispanic White",
+    "deaths": 2366,
+    "death-rate": 180.5156063
+  },
+  {
+    "year": 2019,
+    "cause": "Diseases of Heart (I00-I09, I11, I13, I20-I51)",
+    "target-area": "Cardiovascular System",
+    "sex": "Male",
+    "ethnicity": "Non-Hispanic Black",
+    "deaths": 2315,
+    "death-rate": 279.3451137
+  },
+  {
+    "year": 2019,
+    "cause": "Diseases of Heart (I00-I09, I11, I13, I20-I51)",
+    "target-area": "Cardiovascular System",
+    "sex": "Male",
+    "ethnicity": "Hispanic",
+    "deaths": 1603,
+    "death-rate": 136.8029917
+  },
+  {
+    "year": 2019,
+    "cause": "All Other Causes",
+    "target-area": "Other",
+    "sex": "Male",
+    "ethnicity": "Non-Hispanic Black",
+    "deaths": 1507,
+    "death-rate": 181.8458256
+  },
+  {
+    "year": 2019,
+    "cause": "Malignant Neoplasms (Cancer: C00-C97)",
+    "target-area": "Whole Body",
+    "sex": "Male",
+    "ethnicity": "Non-Hispanic Black",
+    "deaths": 1421,
+    "death-rate": 171.4684262
+  },
+  {
+    "year": 2019,
+    "cause": "Malignant Neoplasms (Cancer: C00-C97)",
+    "target-area": "Whole Body",
+    "sex": "Male",
+    "ethnicity": "Hispanic",
+    "deaths": 1163,
+    "death-rate": 99.25257604
+  },
+  {
+    "year": 2019,
+    "cause": "Malignant Neoplasms (Cancer: C00-C97)",
+    "target-area": "Whole Body",
+    "sex": "Male",
+    "ethnicity": "Asian and Pacific Islander",
+    "deaths": 670,
+    "death-rate": 114.3420808
+  },
+  {
+    "year": 2019,
+    "cause": "All Other Causes",
+    "target-area": "Other",
+    "sex": "Male",
+    "ethnicity": "Asian and Pacific Islander",
+    "deaths": 551,
+    "death-rate": 94.03356196
+  },
+  {
+    "year": 2019,
+    "cause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+    "target-area": "External Factors",
+    "sex": "Male",
+    "ethnicity": "Non-Hispanic White",
+    "deaths": 418,
+    "death-rate": 31.89159908
+  },
+  {
+    "year": 2019,
+    "cause": "Diabetes Mellitus (E10-E14)",
+    "target-area": "Endocrine System",
+    "sex": "Male",
+    "ethnicity": "Non-Hispanic Black",
+    "deaths": 377,
+    "death-rate": 45.49162327
+  },
+  {
+    "year": 2019,
+    "cause": "Chronic Lower Respiratory Diseases (J40-J47)",
+    "target-area": "Respiratory System",
+    "sex": "Male",
+    "ethnicity": "Non-Hispanic White",
+    "deaths": 373,
+    "death-rate": 28.45829296
+  },
+  {
+    "year": 2019,
+    "cause": "Influenza (Flu) and Pneumonia (J09-J18)",
+    "target-area": "Immune System",
+    "sex": "Male",
+    "ethnicity": "Non-Hispanic White",
+    "deaths": 342,
+    "death-rate": 26.09312652
+  },
+  {
+    "year": 2019,
+    "cause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+    "target-area": "External Factors",
+    "sex": "Male",
+    "ethnicity": "Non-Hispanic Black",
+    "deaths": 294,
+    "death-rate": 35.4762261
+  },
+  {
+    "year": 2019,
+    "cause": "Accidents Except Drug Poisoning (V01-X39, X43, X45-X59, Y85-Y86)",
+    "target-area": "External Factors",
+    "sex": "Male",
+    "ethnicity": "Non-Hispanic White",
+    "deaths": 272,
+    "death-rate": 20.75242811
+  },
+  {
+    "year": 2019,
+    "cause": "Cerebrovascular Disease (Stroke: I60-I69)",
+    "target-area": "Nervous System",
+    "sex": "Male",
+    "ethnicity": "Non-Hispanic White",
+    "deaths": 266,
+    "death-rate": 20.29465396
+  },
+  {
+    "year": 2019,
+    "cause": "Diseases of Heart (I00-I09, I11, I13, I20-I51)",
+    "target-area": "Cardiovascular System",
+    "sex": "Male",
+    "ethnicity": "Not Stated/Unknown",
+    "deaths": 259,
+    "death-rate": 318.5496765
+  },
+  {
+    "year": 2019,
+    "cause": "Diabetes Mellitus (E10-E14)",
+    "target-area": "Endocrine System",
+    "sex": "Male",
+    "ethnicity": "Non-Hispanic White",
+    "deaths": 248,
+    "death-rate": 18.92133151
+  },
+  {
+    "year": 2019,
+    "cause": "Cerebrovascular Disease (Stroke: I60-I69)",
+    "target-area": "Nervous System",
+    "sex": "Male",
+    "ethnicity": "Non-Hispanic Black",
+    "deaths": 228,
+    "death-rate": 27.51217534
+  },
+  {
+    "year": 2019,
+    "cause": "Influenza (Flu) and Pneumonia (J09-J18)",
+    "target-area": "Immune System",
+    "sex": "Male",
+    "ethnicity": "Non-Hispanic Black",
+    "deaths": 211,
+    "death-rate": 25.46082894
+  },
+  {
+    "year": 2019,
+    "cause": "Chronic Lower Respiratory Diseases (J40-J47)",
+    "target-area": "Respiratory System",
+    "sex": "Male",
+    "ethnicity": "Non-Hispanic Black",
+    "deaths": 210,
+    "death-rate": 25.3401615
+  },
+  {
+    "year": 2019,
+    "cause": "Intentional Self-Harm (Suicide: U03, X60-X84, Y87.0)",
+    "target-area": "Self-inflicted",
+    "sex": "Male",
+    "ethnicity": "Non-Hispanic White",
+    "deaths": 194,
+    "death-rate": 14.80136417
+  },
+  {
+    "year": 2019,
+    "cause": "Essential Hypertension and Renal Diseases (I10, I12)",
+    "target-area": "Endocrine System",
+    "sex": "Male",
+    "ethnicity": "Non-Hispanic Black",
+    "deaths": 185,
+    "death-rate": 22.32347561
+  },
+  {
+    "year": 2019,
+    "cause": "Essential Hypertension and Renal Diseases (I10, I12)",
+    "target-area": "Endocrine System",
+    "sex": "Male",
+    "ethnicity": "Non-Hispanic White",
+    "deaths": 181,
+    "death-rate": 13.80952018
+  },
+  {
+    "year": 2019,
+    "cause": "All Other Causes",
+    "target-area": "Other",
+    "sex": "Male",
+    "ethnicity": "Not Stated/Unknown",
+    "deaths": 168,
+    "death-rate": 206.6268172
+  },
+  {
+    "year": 2019,
+    "cause": "Assault (Homicide: U01-U02, Y87.1, X85-Y09)",
+    "target-area": "External Factors",
+    "sex": "Male",
+    "ethnicity": "Non-Hispanic Black",
+    "deaths": 156,
+    "death-rate": 18.82411997
+  },
+  {
+    "year": 2019,
+    "cause": "Accidents Except Drug Poisoning (V01-X39, X43, X45-X59, Y85-Y86)",
+    "target-area": "External Factors",
+    "sex": "Male",
+    "ethnicity": "Non-Hispanic Black",
+    "deaths": 150,
+    "death-rate": 18.10011536
+  },
+  {
+    "year": 2019,
+    "cause": "Malignant Neoplasms (Cancer: C00-C97)",
+    "target-area": "Whole Body",
+    "sex": "Male",
+    "ethnicity": "Not Stated/Unknown",
+    "deaths": 107,
+    "death-rate": 131.6016038
+  },
+  {
+    "year": 2019,
+    "cause": "Cerebrovascular Disease (Stroke: I60-I69)",
+    "target-area": "Nervous System",
+    "sex": "Male",
+    "ethnicity": "Asian and Pacific Islander",
+    "deaths": 104,
+    "death-rate": 17.7486215
+  },
+  {
+    "year": 2019,
+    "cause": "Influenza (Flu) and Pneumonia (J09-J18)",
+    "target-area": "Immune System",
+    "sex": "Male",
+    "ethnicity": "Asian and Pacific Islander",
+    "deaths": 92,
+    "death-rate": 15.70070363
+  },
+  {
+    "year": 2019,
+    "cause": "Chronic Lower Respiratory Diseases (J40-J47)",
+    "target-area": "Respiratory System",
+    "sex": "Male",
+    "ethnicity": "Asian and Pacific Islander",
+    "deaths": 80,
+    "death-rate": 13.65278577
+  },
+  {
+    "year": 2019,
+    "cause": "Diabetes Mellitus (E10-E14)",
+    "target-area": "Endocrine System",
+    "sex": "Male",
+    "ethnicity": "Asian and Pacific Islander",
+    "deaths": 76,
+    "death-rate": 12.97014648
+  },
+  {
+    "year": 2019,
+    "cause": "Essential Hypertension and Renal Diseases (I10, I12)",
+    "target-area": "Endocrine System",
+    "sex": "Male",
+    "ethnicity": "Asian and Pacific Islander",
+    "deaths": 56,
+    "death-rate": 9.556950036
+  },
+  {
+    "year": 2019,
+    "cause": "Accidents Except Drug Poisoning (V01-X39, X43, X45-X59, Y85-Y86)",
+    "target-area": "External Factors",
+    "sex": "Male",
+    "ethnicity": "Asian and Pacific Islander",
+    "deaths": 52,
+    "death-rate": 8.874310748
+  },
+  {
+    "year": 2019,
+    "cause": "Intentional Self-Harm (Suicide: U03, X60-X84, Y87.0)",
+    "target-area": "Self-inflicted",
+    "sex": "Male",
+    "ethnicity": "Asian and Pacific Islander",
+    "deaths": 48,
+    "death-rate": 8.191671459
+  },
+  {
+    "year": 2019,
+    "cause": "Diabetes Mellitus (E10-E14)",
+    "target-area": "Endocrine System",
+    "sex": "Male",
+    "ethnicity": "Not Stated/Unknown",
+    "deaths": 43,
+    "death-rate": 52.88662583
+  },
+  {
+    "year": 2019,
+    "cause": "Alzheimer's Disease (G30)",
+    "target-area": "Nervous System",
+    "sex": "Male",
+    "ethnicity": "Asian and Pacific Islander",
+    "deaths": 41,
+    "death-rate": 6.997052705
+  },
+  {
+    "year": 2019,
+    "cause": "Chronic Lower Respiratory Diseases (J40-J47)",
+    "target-area": "Respiratory System",
+    "sex": "Male",
+    "ethnicity": "Not Stated/Unknown",
+    "deaths": 26,
+    "death-rate": 31.97795981
+  },
+  {
+    "year": 2019,
+    "cause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+    "target-area": "External Factors",
+    "sex": "Male",
+    "ethnicity": "Not Stated/Unknown",
+    "deaths": 22,
+    "death-rate": 27.05827368
+  },
+  {
+    "year": 2019,
+    "cause": "Cerebrovascular Disease (Stroke: I60-I69)",
+    "target-area": "Nervous System",
+    "sex": "Male",
+    "ethnicity": "Not Stated/Unknown",
+    "deaths": 20,
+    "death-rate": 24.59843062
+  },
+  {
+    "year": 2019,
+    "cause": "Diseases of Heart (I00-I09, I11, I13, I20-I51)",
+    "target-area": "Cardiovascular System",
+    "sex": "Male",
+    "ethnicity": "Other Race/ Ethnicity",
+    "deaths": 19,
+    "death-rate": ""
+  },
+  {
+    "year": 2019,
+    "cause": "Accidents Except Drug Poisoning (V01-X39, X43, X45-X59, Y85-Y86)",
+    "target-area": "External Factors",
+    "sex": "Male",
+    "ethnicity": "Not Stated/Unknown",
+    "deaths": 19,
+    "death-rate": 23.36850909
+  },
+  {
+    "year": 2019,
+    "cause": "Influenza (Flu) and Pneumonia (J09-J18)",
+    "target-area": "Immune System",
+    "sex": "Male",
+    "ethnicity": "Not Stated/Unknown",
+    "deaths": 18,
+    "death-rate": 22.13858756
+  },
+  {
+    "year": 2019,
+    "cause": "Mental and Behavioral Disorders due to Use of Alcohol (F10)",
+    "target-area": "External Factors",
+    "sex": "Male",
+    "ethnicity": "Not Stated/Unknown",
+    "deaths": 18,
+    "death-rate": 22.13858756
+  },
+  {
+    "year": 2019,
+    "cause": "Chronic Liver Disease and Cirrhosis (K70, K73-K74)",
+    "target-area": "Digestive System",
+    "sex": "Male",
+    "ethnicity": "Not Stated/Unknown",
+    "deaths": 18,
+    "death-rate": 22.13858756
+  },
+  {
+    "year": 2019,
+    "cause": "Malignant Neoplasms (Cancer: C00-C97)",
+    "target-area": "Whole Body",
+    "sex": "Male",
+    "ethnicity": "Other Race/ Ethnicity",
+    "deaths": 15,
+    "death-rate": ""
+  },
+  {
+    "year": 2019,
+    "cause": "All Other Causes",
+    "target-area": "Other",
+    "sex": "Male",
+    "ethnicity": "Other Race/ Ethnicity",
+    "deaths": 10,
+    "death-rate": ""
+  },
+  {
+    "year": 2019,
+    "cause": "Influenza (Flu) and Pneumonia (J09-J18)",
+    "target-area": "Immune System",
+    "sex": "Male",
+    "ethnicity": "Other Race/ Ethnicity",
+    "deaths": 6,
+    "death-rate": ""
+  },
+  {
+    "year": 2019,
+    "cause": "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+    "target-area": "External Factors",
+    "sex": "Male",
+    "ethnicity": "Other Race/ Ethnicity",
+    "deaths": 5,
+    "death-rate": ""
+  },
+  {
+    "year": 2019,
+    "cause": "Diabetes Mellitus (E10-E14)",
+    "target-area": "Endocrine System",
+    "sex": "Male",
+    "ethnicity": "Other Race/ Ethnicity",
+    "deaths": 3,
+    "death-rate": ""
+  },
+  {
+    "year": 2019,
+    "cause": "Congenital Malformations, Deformations, and Chromosomal Abnormalities (Q00-Q99)",
+    "target-area": "Reproductive System",
+    "sex": "Male",
+    "ethnicity": "Other Race/ Ethnicity",
+    "deaths": 3,
+    "death-rate": ""
+  },
+  {
+    "year": 2019,
+    "cause": "Assault (Homicide: U01-U02, Y87.1, X85-Y09)",
+    "target-area": "External Factors",
+    "sex": "Male",
+    "ethnicity": "Other Race/ Ethnicity",
+    "deaths": 2,
+    "death-rate": ""
+  },
+  {
+    "year": 2019,
+    "cause": "Aortic Aneurysm and Dissection (I71)",
+    "target-area": "Cardiovascular System",
+    "sex": "Male",
+    "ethnicity": "Other Race/ Ethnicity",
+    "deaths": 2,
+    "death-rate": ""
+  },
+  {
+    "year": 2019,
+    "cause": "Intentional Self-Harm (Suicide: U03, X60-X84, Y87.0)",
+    "target-area": "Self-inflicted",
+    "sex": "Male",
+    "ethnicity": "Other Race/ Ethnicity",
+    "deaths": 2,
+    "death-rate": ""
+  },
+  {
+    "year": 2019,
+    "cause": "Essential Hypertension and Renal Diseases (I10, I12)",
+    "target-area": "Endocrine System",
+    "sex": "Male",
+    "ethnicity": "Other Race/ Ethnicity",
+    "deaths": 1,
+    "death-rate": ""
+  },
+  {
+    "year": 2019,
+    "cause": "Complications of Medical and Surgical Care (Y40-Y84, Y88)",
+    "target-area": "Other",
+    "sex": "Male",
+    "ethnicity": "Other Race/ Ethnicity",
+    "deaths": 1,
+    "death-rate": ""
+  },
+  {
+    "year": 2019,
+    "cause": "Human Immunodeficiency Virus Disease (HIV: B20-B24)",
+    "target-area": "Immune System",
+    "sex": "Male",
+    "ethnicity": "Other Race/ Ethnicity",
+    "deaths": 1,
+    "death-rate": ""
+  },
+  {
+    "year": 2019,
+    "cause": "Alzheimer's Disease (G30)",
+    "target-area": "Nervous System",
+    "sex": "Male",
+    "ethnicity": "Other Race/ Ethnicity",
+    "deaths": 1,
+    "death-rate": ""
+  },
+  {
+    "year": 2019,
+    "cause": "Accidents Except Drug Poisoning (V01-X39, X43, X45-X59, Y85-Y86)",
+    "target-area": "External Factors",
+    "sex": "Male",
+    "ethnicity": "Other Race/ Ethnicity",
+    "deaths": 1,
+    "death-rate": ""
+  },
+  {
+    "year": 2019,
+    "cause": "Cerebrovascular Disease (Stroke: I60-I69)",
+    "target-area": "Nervous System",
+    "sex": "Male",
+    "ethnicity": "Other Race/ Ethnicity",
+    "deaths": 1,
+    "death-rate": ""
+  },
+  {
+    "year": 2019,
+    "cause": "Septicemia (A40-A41)",
+    "target-area": "Immune System",
+    "sex": "Male",
+    "ethnicity": "Other Race/ Ethnicity",
+    "deaths": 1,
+    "death-rate": ""
+  },
+  {
+    "year": 2019,
+    "cause": "Cholelithiasis and Disorders of Gallbladder (K80-K82)",
+    "target-area": "Digestive System",
+    "sex": "Male",
+    "ethnicity": "Other Race/ Ethnicity",
+    "deaths": 1,
+    "death-rate": ""
+  },
+  {
+    "year": 2019,
+    "cause": "Mental and Behavioral Disorders due to Use of Alcohol (F10)",
+    "target-area": "External Factors",
+    "sex": "Male",
+    "ethnicity": "Other Race/ Ethnicity",
+    "deaths": 1,
+    "death-rate": ""
+  },
+  {
+    "year": 2019,
+    "cause": "Viral Hepatitis (B15-B19)",
+    "target-area": "Digestive System",
+    "sex": "Male",
+    "ethnicity": "Other Race/ Ethnicity",
+    "deaths": 1,
+    "death-rate": ""
+  }
+]

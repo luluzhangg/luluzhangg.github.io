@@ -177,6 +177,30 @@ allFilterBtn.addEventListener("click", function (event) {
   });
 });
 
+// let toolTip = document.querySelector('tool-tip')
+
+// const diorTitle = document.getElementById("title");
+
+// diorTitle.addEventListener('mouseeneter', function (event) {
+//   toolTip.classList.add('hovering')
+// })
+
+// diorTitle.addEventListener('mouseleave', function (event) {
+//   toolTip.classList.remove('hovering')
+// })
+
+
+// const diorTitle = document.getElementById("title")
+//       diorTitle.addEventListener("mouseover", showTooltip);
+//       diorTitle.addEventListener("mouseout", hideTooltip);
+//       function showTooltip() {
+//          const toolTip = document.querySelector(".tool-tip");
+//          toolTip.classList.add('hovering');
+//       }
+//       function hideTooltip() {
+//          const toolTip = document.querySelector(".tool-tip");
+//          toolTip.classList.remove('hovering');
+//       } 
 
 // Fetch gets your JSON file.
 fetch('assets/data.json')
