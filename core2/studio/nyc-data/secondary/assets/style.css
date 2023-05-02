@@ -77,7 +77,7 @@ img{
     width: 55%;
     height: 75vh;
     border: solid 20px white;
-    box-shadow: 5px 5px 50px 20px #0ff;
+    box-shadow: 5px 5px 50px 20px rgb(0, 255, 234);
     padding-left: 3em;
     align-content: center;
     border-radius: 10px;
@@ -92,4 +92,24 @@ img{
 #external{
     width:400px;
     height: auto;
+}
+
+.beat{
+	position: absolute;
+	left:90%;
+	top: 6%;
+	/* transform: translate(50%,50%); */
+}
+
+i{
+	text-shadow: 0 0 40px rgb(0, 255, 221);
+	/* transform: scale(20); */
+	animation: beating 1.5s infinite;
+    color: black;
+}
+
+@keyframes beating{
+	0%{transform: scale(1.10);}
+	30%{transform: scale(1.4);}
+	60%{transform: scale(1.9);}
 }
