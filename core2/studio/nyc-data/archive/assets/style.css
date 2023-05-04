@@ -33,7 +33,7 @@ h3{
 }
 
 .causes{
-    border: solid 5px rgb(204, 255, 244);
+    border: solid 2px aqua;
     width:20%;
     background-color: rgba(255, 255, 255, 0.283);
     color: aqua;
@@ -68,3 +68,30 @@ h3{
     display: none;
   }
 
+  .filter-show{
+    display: block;
+  }
+  
+  .filter-hide{
+    display: none;
+  }
+
+.button-bar{
+    padding-bottom:2em;
+    margin-left: 2em;
+}
+
+  button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: aqua;
+    background-color: rgba(255, 255, 255, 0.283);
+    border: solid 2px aqua;
+    padding: 0.5em;
+    margin: 0.3em;
+  }
+
+button:hover{
+    background-color: rgba(255, 255, 255, 0) ;
+    cursor: pointer;
+}

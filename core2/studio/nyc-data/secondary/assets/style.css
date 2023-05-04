@@ -5,6 +5,7 @@ html{
 	background-image:
 	  linear-gradient(to right,rgb(0, 255, 221) .15px, transparent 1px),
 	  linear-gradient(to bottom,rgb(0, 255, 221) .15px, transparent 1px);
+      overflow-x: hidden;
 }
 
 h2{
@@ -44,15 +45,15 @@ button{
     font-family: Arial, Helvetica, sans-serif;
     padding: 0.5em;
     opacity:1;
-    background-color: white;
-    color:black;
-    border: none;
+    color: aqua;
+    background-color: rgba(255, 255, 255, 0.283);
+    border: solid 2px aqua;
     height: 2em;
     /* border-radius: 20px; */
 }
 
 button:hover{
-    opacity:70%;
+    background-color: rgba(255, 255, 255, 0) ;
     cursor: pointer;
 }
 
@@ -105,7 +106,7 @@ img{
 .beat{
 	position: absolute;
 	left:90%;
-	top: 6%;
+	top: 10%;
 	/* transform: translate(50%,50%); */
 }
 
@@ -113,7 +114,7 @@ i{
 	text-shadow: 0 0 40px rgb(0, 255, 221);
 	/* transform: scale(20); */
 	animation: beating 1.5s infinite;
-    color: black;
+    /* color: black; */
 }
 
 @keyframes beating{
@@ -121,3 +122,26 @@ i{
 	30%{transform: scale(1.4);}
 	60%{transform: scale(1.9);}
 }
+
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #000000; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #00ffcc; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #00ffd985; 
+  }
+
+  ::-webkit-scrollbar-corner{
+    display: none;
+  }
