@@ -1,0 +1,70 @@
+html{
+	background-color: black;
+	/* font-family: 'Chakra Petch', sans-serif;   */
+	background-size: 100px 100px;
+	background-image:
+	  linear-gradient(to right,rgb(0, 255, 221) .15px, transparent 1px),
+	  linear-gradient(to bottom,rgb(0, 255, 221) .15px, transparent 1px);
+      color: white;
+      overflow-x: hidden;
+}
+
+h1{
+    font-size: 3.5em;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+h3{
+    font-size: 1.3em;
+}
+
+.title{
+    padding:1em;
+    margin-left:1em;
+}
+
+#dataset{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95vw;
+    gap:20px;
+    align-content: space-between;
+    padding:2em;
+}
+
+.causes{
+    border: solid 5px rgb(204, 255, 244);
+    width:20%;
+    background-color: rgba(255, 255, 255, 0.283);
+    color: aqua;
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.causes:hover{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #000000; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #00ffcc; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #00ffd985; 
+  }
+
+  ::-webkit-scrollbar-corner{
+    display: none;
+  }
+

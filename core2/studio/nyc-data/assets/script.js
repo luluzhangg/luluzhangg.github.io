@@ -29,4 +29,8 @@ window.onclick = function(event) {
   }
 }
 
-// let yesBtn = document.getElementsByClassName('.yesbtn')
+let cancelBtn = document.getElementsByClassName(".cancelbtn")
+let modalBox = document.getElementById("enter"); 
+ cancelBtn.addEventListener("click", () => { 
+    modalBox.style.display = "none"; 
+ });

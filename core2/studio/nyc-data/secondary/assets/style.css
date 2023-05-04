@@ -1,27 +1,31 @@
 html{
 	background-color: black;
-	font-family: 'American Typewriter', sans-serif;   
+	/* font-family: 'Chakra Petch', sans-serif;   */
 	background-size: 100px 100px;
 	background-image:
 	  linear-gradient(to right,rgb(0, 255, 221) .15px, transparent 1px),
 	  linear-gradient(to bottom,rgb(0, 255, 221) .15px, transparent 1px);
 }
 
-h1{
+h2{
+    font-family: 'Chakra Petch', sans-serif;
     color: white;
 }
 
 .title {
-    font-size: 2em;
+    font-size: 2.5em;
     color: white;
     width:100vw;
     padding-left: 0.3em;
+    padding-bottom: 0;
+    padding:0.4em;
 }
 
 .container{
     display: flex; 
     flex-wrap: wrap;
-    padding:4em;
+    padding-left:4em;
+    padding-right: 4em;
 }
 
 .systems{
@@ -32,7 +36,7 @@ h1{
     flex-direction: column;
     flex-wrap: wrap;
     row-gap: 10px;
-    margin-top:35px;
+    margin-top:40px;
 }
 
 button{
@@ -80,6 +84,7 @@ img{
     border: solid 20px white;
     box-shadow: 5px 5px 50px 20px rgb(0, 255, 234);
     padding-left: 3em;
+    padding-top: 2em;
     align-content: center;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.275);
