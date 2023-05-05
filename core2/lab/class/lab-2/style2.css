@@ -1,0 +1,238 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner{
+    padding:1em;
+}
+
+marquee{
+    font-size: 5em;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.circle-one{
+    background-color: black;
+    position: absolute;
+    border-radius: 50%;
+    width:500px;
+    height:500px;
+    left: 440px;
+    top: 200px;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    margin-top: 5%;
+}
+
+.project-one{
+    position: absolute;
+    left:1px;
+    top:550px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: black;
+    text-align: center;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    animation-name: ball;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    top:1em;
+    position: absolute;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    left:-5px;
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+}
+
+@keyframes ball {
+    0%{
+        transform: translateX(1px);
+    }
+    50%{
+        transform: translateX(1240px);
+    }
+    100%{
+        transform: translateX(-10px);
+    }
+}
+
+.project-two{
+    position: absolute;
+    left:700px;
+    top:630px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: black;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    text-align: center;
+    animation-name: bounce;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+
+@keyframes bounce {
+    0% {
+		transform: translate(0, 0);
+	}
+
+	50% {
+		transform: translate(-720px, -720px);
+	}
+    100% {
+		transform: translate(0, 0);
+	}
+
+}
+
+.project-three{
+    position: absolute;
+    left:700px;
+    top:10px;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: black;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    text-align: center;
+    animation-name: bounce1;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+
+@keyframes bounce1 {
+    0% {
+		transform: translate(0, 0);
+	}
+
+	50% {
+		transform: translate(400px, 700px);
+	}
+    100% {
+		transform: translate(0, 0);
+	}
+
+}
+
+.project-four{
+    position: absolute;
+    left:100px;
+    top:10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: black;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    text-align: center;
+    animation-name: bounce2;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+
+@keyframes bounce2 {
+    0% {
+		transform: translate(0, 0);
+	}
+
+	50% {
+		transform: translate(700px, 700px);
+	}
+    100% {
+		transform: translate(0, 0);
+	}
+
+}
+
+.project-five{
+    position: absolute;
+    left:400px;
+    top:700px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: black;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    text-align: center;
+    animation-name: bounce3;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+
+@keyframes bounce3 {
+    0% {
+		transform: translate(0, 0);
+	}
+
+	50% {
+		transform: translateY(-750px);
+	}
+    100% {
+		transform: translate(0, 0);
+	}
+
+}
+
+
+.project-one:hover{
+    color: white;
+    filter: blur(0);
+    cursor: pointer;
+    animation-play-state: paused;
+
+}
+
+.project-two:hover{
+    color: white;
+    filter: blur(0);
+    cursor: pointer;
+    animation-play-state: paused;
+}
+
+.project-three:hover{
+    color: white;
+    filter: blur(0);
+    cursor: pointer;
+    animation-play-state: paused;
+
+}
+
+.project-four:hover{
+    color: white;
+    filter: blur(0);
+    cursor: pointer;
+    animation-play-state: paused;
+
+}
+.project-five:hover{
+    color: white;
+    filter: blur(0);
+    cursor: pointer;
+    animation-play-state: paused;
+
+}
+
+
+footer{
+    padding:1em;
+    position: absolute;
+    top:800px;
+}
