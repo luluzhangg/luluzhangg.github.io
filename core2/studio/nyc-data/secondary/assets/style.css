@@ -27,11 +27,13 @@ h2{
     flex-wrap: wrap;
     padding-left:4em;
     padding-right: 4em;
+    padding-top: 4.5em;
 }
 
 .systems{
     width: 25%;
     padding: 1em;
+    padding-top:2em;
     display: flex;
     align-content: space-between;
     flex-direction: column;

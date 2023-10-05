@@ -1,0 +1,108 @@
+html{
+    background:black;
+    overflow: hidden;
+}
+
+.words{
+    padding: 10%;
+    position: absolute;
+    transform: translate(-80%,-60%);
+}
+p{
+    color: white;
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    padding-bottom: 10px;
+}
+
+em{
+    font-weight: 200;
+}
+
+*{
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body{
+	width: 100vw;
+	height: 100vh;
+	background: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	margin: 0;
+}
+
+.glitch{
+	position: absolute;
+	z-index: 1;
+}
+
+.glitch:before, .glitch:after{
+	content: "Digitalized";
+  	position: absolute;
+  	left: 0;
+	z-index: -1;
+}
+
+.glitch:before{
+	color: rgb(0, 0, 255);
+	clip-path: polygon(0 0%, 100% 0%, 100% 66%, 0 66%);
+	animation: slide-right .15s ease-in-out infinite;
+}
+
+.glitch:after{
+	color: rgb(255, 0, 0);
+	clip-path: polygon(0 33%, 100% 33%, 100% 100%, 0 100%);
+	animation: slide-left .2s ease-in-out infinite;
+}
+
+@keyframes slide-left{
+	to{
+		transform: translateX(1.5px);
+	}
+}
+
+@keyframes slide-right{
+	to{
+		transform: translateX(-1.5px);
+	}
+}
+
+.offset{
+	transform: translateX(-1.5px);
+	animation: offset 2s ease infinite;
+	background: black;
+	position: absolute;
+	z-index: 2;
+	color: white;
+}
+
+@keyframes offset{
+	from{
+		clip-path: polygon(0 0%, 100% 0%, 100% 15%, 0 15%);
+	} 50% {
+		clip-path: polygon(0 85%, 100% 85%, 100% 100%, 0 100%);
+	} to {
+		clip-path: polygon(0 0%, 100% 0%, 100% 15%, 0 15%);
+	}
+}
+
+img{
+    position: fixed;
+    width: 100vw;
+    left:20%;
+    top:10%;
+    
+}
+
+img:hover{
+    filter: blur(5px);
+    cursor: pointer;
+
+}
