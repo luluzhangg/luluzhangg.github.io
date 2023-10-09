@@ -2,7 +2,7 @@
 .split {
     height: 100%;
     width: 50%;
-    position: fixed;
+    position: absolute;
     z-index: 1;
     top: 0;
     overflow-x: hidden;
@@ -31,7 +31,7 @@
     left: 50%;
     /* transform: translate(-50%, -10%); */
     text-align: center;
-    padding: 20px;
+    padding: 30px;
   }
 
   .container-2 {
@@ -47,6 +47,7 @@
 }
   
 img {
+  /* position: absolute; */
     display: flex;
     flex-wrap: nowrap;
     max-width:130px;
@@ -67,25 +68,139 @@ img {
     to {display: inline;}
 }
 
-button{
+/* button{
     font-size: 1em;
     background-color: red;
     opacity: 50%;
+} */
+
+#title-1{
+    background-color: white;
+    opacity: 60%;
+    position: fixed;
+    height: 110%;
+    width: 50%;
+    margin: 0;
+    text-align: center;
+    top: -20px;
+    
 }
 
-.title-1{
-    color: white;
+#title-2{
+  background-color: black;
+  opacity: 60%;
+  position: fixed;
+  height: 110%;
+  width: 50%;
+  padding: 0;
+  text-align: center;
+  top: -20px;
+  right:0px
+}
+
+#title-1:hover{
+ cursor: pointer;
+}
+#title-2:hover{
+  cursor: pointer;
+ }
+
+
+#external{
+  color: black;
+  padding-top: 2em;
+  font-size: 150px;
+  padding-left: 20px;
+}
+
+#internal{
+  color: white;
+  padding-top: 2em;
+  font-size: 150px;
 }
 
 img:hover{
-    max-width: 145px;
+    /* max-width: 145px; */
+    /* transform: scale(1); */
     opacity: 100%;
     filter: blur(0);
+    cursor: pointer;
 }
 
 .gallery{
+  position: absolute;
     align-content: flex-start;
     align-self: center;
     padding-left: 7%;
     padding-bottom: 5%;
+}
+
+p{
+    font-size: 2em;
+    line-height: 1.2em;
+    display: none;
+}
+
+/* .dark-mode{
+  filter: invert(100%);
+} */
+
+.close-1{
+  animation: slideright 1.2s forwards;
+}
+
+@keyframes slideright {
+  to{
+    width: 0%;
+  }
+}
+
+#nav{
+  position: absolute;
+  /* display: block; */
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: rgb(132, 0, 0);
+  align-content: center;
+  z-index: 13;
+  left: 42%;
+  top:15%;
+  mix-blend-mode: difference;
+}
+
+#nav:hover{
+ cursor: move;
+}
+
+h3{
+  color: white;
+  font-family: Helvetica;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 22px;
+  font-size: 14px;
+}
+
+h3:hover{
+  opacity: 60%;
+  cursor: pointer;
+}
+
+#nav-2{
+  position: absolute;
+  /* display: block; */
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: rgb(132, 0, 0);
+  align-content: center;
+  z-index: 13;
+  left: 55%;
+  top:65%;
+  mix-blend-mode: difference;
+}
+
+#nav-2:hover{
+ cursor: move;
 }
