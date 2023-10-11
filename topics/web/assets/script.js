@@ -1,7 +1,9 @@
 let oneBtn = document.getElementById("one");
 let oneText = document.getElementById("text-1"); 
+let introText = document.getElementById("information")
 oneBtn.addEventListener("click", () => { 
    oneText.style.display = "block"; 
+   introText.style.display = "none";
 });
 let twoBtn = document.getElementById("two");
 twoBtn.addEventListener("click", () => { 
@@ -13,6 +15,7 @@ twoBtn.addEventListener("click", () => {
 let twoText = document.getElementById("text-2"); 
 twoBtn.addEventListener("click", () => { 
    oneText.style.display = "none"; 
+   introText.style.display = "none";
    twoText.style.display = "block"; 
 });
 
@@ -28,6 +31,7 @@ threeBtn.addEventListener("click", () => {
   twoText.style.display = "none"; 
    threeText.style.display = "block"; 
    fourText.style.display ="none";
+   introText.style.display = "none";
 });
 
 let fourBtn = document.getElementById("four");
@@ -49,6 +53,7 @@ fourBtn.addEventListener("click", () => {
  let fourText = document.getElementById("text-4"); 
  fourBtn.addEventListener("click", () => { 
     threeText.style.display = "none";
+    introText.style.display = "none";
     fourText.style.display = "block"; 
  });
  let fiveBtn = document.getElementById("five");
@@ -66,6 +71,16 @@ externalLayer.addEventListener("click", () => {
 let internalLayer = document.getElementById("title-2")
 internalLayer.addEventListener("click", () => { 
   internalLayer.classList.add("close-1");
+});
+
+let homeButton = document.getElementById("home")
+homeButton.addEventListener("click", () => {
+  oneText.style.display = "none"; 
+  twoText.style.display = "none"; 
+  threeText.style.display = "none"; 
+  fourText.style.display = "none"; 
+  introText.style.display = "block";
+
 });
 
 // function myFunction() {
@@ -159,4 +174,5 @@ function dragElement(elmnt) {
     document.onmouseup = null;
     document.onmousemove = null;
   }
-}
+};
+

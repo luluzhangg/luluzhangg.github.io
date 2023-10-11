@@ -46,7 +46,7 @@
     position: absolute;
 }
   
-img {
+.gallery img {
   /* position: absolute; */
     display: flex;
     flex-wrap: nowrap;
@@ -119,7 +119,7 @@ img {
   font-size: 150px;
 }
 
-img:hover{
+.gallery img:hover{
     /* max-width: 145px; */
     /* transform: scale(1); */
     opacity: 100%;
@@ -136,7 +136,7 @@ img:hover{
 }
 
 p{
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: 1.2em;
     display: none;
 }
@@ -203,4 +203,120 @@ h3:hover{
 
 #nav-2:hover{
  cursor: move;
+}
+
+#information{
+  position: absolute;
+  padding: 5px;
+  padding-left: 5px;
+  padding-right: 15px;
+  align-items: center;
+  
+}
+
+#heading{
+  /* font-family: Helvetica, sans-serif; */
+  font-size: 2em;
+  font-weight: 200;
+  padding-bottom: 1em;
+}
+
+#heading em{
+  font-weight: 600;
+  font-size: 42px;
+}
+
+.character{
+  position: fixed;
+  width: 80%;
+  z-index: -10;
+  opacity: 50%;
+}
+
+.glitch{
+	position: absolute;
+	z-index: 1;
+}
+
+.glitch:before, .glitch:after{
+	content: "Digitalized";
+  	position: absolute;
+  	left: 0;
+	z-index: -1;
+}
+
+.glitch:before{
+	color: rgb(11, 128, 206);
+	clip-path: polygon(0 0%, 100% 0%, 100% 66%, 0 66%);
+	animation: slide-right .15s ease-in-out infinite;
+}
+
+.glitch:after{
+	color: rgb(207, 28, 28);
+	clip-path: polygon(0 33%, 100% 33%, 100% 100%, 0 100%);
+	animation: slide-left .2s ease-in-out infinite;
+}
+
+@keyframes slide-left{
+	to{
+		transform: translateX(1.5px);
+	}
+}
+
+@keyframes slide-right{
+	to{
+		transform: translateX(-1.5px);
+	}
+}
+
+/* .offset{
+	transform: translateX(-1.5px);
+	animation: offset 2s ease infinite;
+	background: black;
+  opacity: 20%;
+  background-blend-mode: color-dodge;
+	position: absolute;
+	z-index: 2;
+	color: white;
+}
+
+@keyframes offset{
+	from{
+		clip-path: polygon(0 0%, 100% 0%, 100% 15%, 0 15%);
+	} 50% {
+		clip-path: polygon(0 85%, 100% 85%, 100% 100%, 0 100%);
+	} to {
+		clip-path: polygon(0 0%, 100% 0%, 100% 15%, 0 15%);
+	}
+} */
+
+p{
+  padding-left: 30px;
+  line-height: 180%;
+  
+}
+
+#name{
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  line-height: 110%;
+  padding-right: 25px;
+}
+
+#translation{
+  color: rgb(12, 12, 125);
+}
+
+.directions{
+  font-size: 13px;
+  font-weight: 600;
+}
+
+#intro{
+  font-size: 16px;
+}
+
+.about{
+  font-family: Arial, Helvetica, sans-serif;
 }
